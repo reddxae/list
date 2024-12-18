@@ -83,7 +83,6 @@ ya.ru##.alice-fab
 * [ClearURLs.](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk) Автоматически очищает URL страницы от трекинг-содержимого.
 * [Dark Reader.](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh) Хорошее расширения для автоматической перекраски сайтов в тёмные тона. Маст-хев, множество настроек.
 * [Search by Image.](https://chrome.google.com/webstore/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci) Приятный интерфейс, большое количество сервисов для поиска, можно добавлять свои. Небольшой дополнительный функционал. Пробуйте.
-* [Bing AI Plus.](https://github.com/patrik-martinko/app-bing-ai-plus) Позволяет модифицировать внешний вид страницы чатбота, снимает ограничение на количество символов.
 * [User-Agent Switcher and Manager.](https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg) Позволяет быстро подменить useragent вашего девайса.
 * [Old Genius (Song Page Switcher).](https://chrome.google.com/webstore/detail/old-genius-song-page-swit/dgdnchkkkknfdahaehnkfifchgnoidjj) Автоматически и без задержек (релоада) возвращает старую версию дизайна страницы текста на Genius.com.
 * [Stylus.](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) Пользовательские стили для сайтов.
@@ -133,3 +132,8 @@ ya.ru##.alice-fab
 
 * [Just Black.](https://chrome.google.com/webstore/detail/just-black/aghfnjkcakhmadgdomlmlhhaocbkloab?hl=ru) Простая и минималистичная тема в тёмных тонах от Google.  
 * *(Windows 11)* Включаем эффект Mica в Microsoft Edge: переходим по ссылке `edge://flags/#edge-visual-rejuv-mica`, активируем флаг, перезапускаем браузер.
+* [WaveFox.](https://github.com/QNetITQ/WaveFox)
+* [Geckium.](https://github.com/angelbruni/Geckium)
+
+### Производительность
+* [Bettefox.](https://github.com/yokoffing/Betterfox)
