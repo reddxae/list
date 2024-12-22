@@ -98,14 +98,15 @@ ya.ru##.alice-fab
 
 Переходим в настройки расширения, активируем пункт «Пользовательская тема» и вставляем код. Сохраняем. Изменения применяются без необходимости в перезагрузке страницы.
 
-Убираем новый уродский градиент в плеере и элементах интерфейса:
+Убираем новый уродливый градиент в плеере и элементах интерфейса:
 
 ```css
 .ytp-swatch-background-color,
 #progress.ytd-thumbnail-overlay-resume-playback-renderer,
 #progress.yt-page-navigation-progress,
 .yt-spec-avatar-shape--live-ring::after,
-.ytProgressBarLineProgressBarPlayedRefresh {
+.ytProgressBarLineProgressBarPlayedRefresh,
+.ytp-play-progress {
    background: #f03 !important;
    background-color: #f03 !important;
 }
@@ -118,10 +119,19 @@ ya.ru##.alice-fab
 
 ```css
 .html5-video-player,
-.ytp-cued-thumbnail-overlay {
+.ytp-cued-thumbnail-overlay,
+.ytp-cued-thumbnail-overlay-image {
    background-size: contain !important;
    background-position: center !important;
    background-repeat: no-repeat !important;
+}
+```
+
+Скрываем не относящиеся к поисковому запросу разделы ("Новые каналы для вас", "Новые видео для вас", "Зрители также посмотрели" и т.п.) на странице поиска:
+
+```css
+.ytd-search ytd-shelf-renderer:has([id="dismissible"]) {
+   display: none !important;
 }
 ```
 
