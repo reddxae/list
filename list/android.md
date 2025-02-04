@@ -194,7 +194,7 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 
 ### 💡 Полезное
 * [Калькулятор из MIUI с нормальной иконкой для Launcher3-like лаунчеров.)[https://4pda.to/forum/index.php?showtopic=792469&st=400#entry109791426]
-* [LSPatch.](https://github.com/JingMatrix/LSPatch/actions) Имплементация API Xposed в сборку приложения с дальнейшим управлением модулями через менеджер без root-прав.
+* [LSPatch.](https://github.com/JingMatrix/LSPatch) Имплементация API Xposed в сборку приложения с дальнейшим управлением модулями через менеджер без root-прав.
 * [Barcode Scanner.](https://f-droid.org/packages/com.atharok.barcodescanner/) Сканер штрих/QR-кодов.
 * <sup>`(Android 12 и ниже)`</sup>[Clipboard Cleaner.](https://f-droid.org/ru/packages/io.github.deweyreed.clipboardcleaner/) Выводит уведомления об операциях приложений/пользователя с буфером обмена, и тоггл в шторку для его очистки.
 * [Memory Guardian.](https://apt.izzysoft.de/fdroid/index/apk/ara.memoryguardian) Настройка автоочистки буфера обмена.
