@@ -208,8 +208,7 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * [KTweak.](https://t.me/ktweak) Безопасные твики производительности, разделенные на пресеты с разными нуждами.
 * [Global Optimized GPS.](https://github.com/skyrocketingHong/OptmizedGPSConf) Улучшение и ускорение фиксации/блокировки спутниковых сигналов.
 * [DriveDroid Fix.](https://github.com/overzero-git/DriveDroid-fix-Magisk-module) Восстаналивает работу DriveDroid на новых версиях Android.
-* <sup>`(Google Tensor)`</sup> [Modem Fix.](https://github.com/Displax/modem-fix) Снимает ограничения работы LTE в странах СНГ.
-* <sup>`(Google Tensor)`</sup> [Pixel MDM Patch.](https://github.com/andrewz1/pixel-mdm-patch) Патчер конфигурации модема.
+* <sup>`(Google Tensor)`</sup> [Universal Modem Fix.](https://github.com/daradan/5g_enabler) Снимает ограничения работы LTE в странах СНГ.
 * [Custota.](https://github.com/chenxiaolong/Custota) Установка OTA-обновлений с вашего сервера. Поддерживает работу в паре с [avbroot.](https://github.com/chenxiaolong/avbroot/blob/master/README.ru.md)
   - [PixelUpdater.](https://github.com/PixelUpdater/PixelUpdater) Замена встроенного OTA-апдейтера в стоковой прошивке Pixel. Установка официальных обновлений системы от Google для рутированных устройств с автоматическим патчингом Magisk и пропуском ненужных проверок, что значительно ускоряет процесс обновления.
 * [QuickSwitch.](https://github.com/j7b3y/QuickSwitch/releases) Безболезненная замена стандартного лаунчера вместе с провайдером меню недавних приложений. 
