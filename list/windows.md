@@ -104,7 +104,7 @@
 * [Sysinternals Suite.](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) Ещё один набор мелких утилит. Можно скачать всё разом, [либо необходимое по отдельности.](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite#introduction)
 
 ## ✈️ Telegram
-* [AyuGram Desktop.](https://github.com/AyuGram/AyuGramDesktop) Клиент без рекламы [с большим количеством полезного функционала,](https://docs.ayugram.one/desktop/) некоторый из которого нарушает ToS. Будьте осторожны.
+* [AyuGram Desktop.](https://github.com/AyuGram/AyuGramDesktop) Клиент без рекламы [с большим количеством полезного функционала,](https://docs.ayugram.one/desktop/) некоторый из которого нарушает ToS. Будьте осторожны, существует риск блокировки аккаунта.
 * [64Gram.](https://github.com/TDesktop-x64/tdesktop) Легкий клиент [c базовыми функциями](https://github.com/TDesktop-x64/tdesktop/blob/dev/features.md) и небольшим количеством эксклюзивных дополнений (например, конвертирование чатов в супергруппы).
 * [Unigram.](https://github.com/UnigramDev/Unigram) UWP-клиент c Fluent дизайном. Анимации подтормаживают уже не так сильно, как раньше, и в целом клиент юзабельный. Но все ещё сильно уступает Telegram Desktop по удобству и быстродействию. 
 
