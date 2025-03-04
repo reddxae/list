@@ -78,6 +78,7 @@ ya.ru##.alice-fab
 
 1. [AdGuardExtra.](https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js) *Блокировка попыток обхода блокировки рекламы...* Да, именно так. Работает для YouTube [и многих других сайтов.](https://github.com/AdguardTeam/AdGuardExtra#websites-where-adguard-extra-can-be-useful)
 2. [Voice-Over-Translation.](https://raw.githubusercontent.com/ilyhalight/voice-over-translation/master/dist/vot.user.js) Автоматический закадровый перевод видео в реальном времени, свободный порт из Яндекс Браузера.
+3. [Блокировка Anti-Adblock баннера на Aternos](https://gist.github.com/DvilMuck/f2b14f3f65e8f22974d781277158f82a/raw/66a0d8d9dd598fc516c3c9d9bbf6ef3f0f6a7a1e/aternosAntiAntiadblock.user.js)
 
 * [ClearURLs.](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk) Автоматически очищает URL страницы от трекинг-содержимого.
 * [Dark Reader.](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh) Динамическая покраска сайтов в тёмные тона. Маст-хев, множество настроек.
