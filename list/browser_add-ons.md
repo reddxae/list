@@ -13,9 +13,10 @@
 
 ### Aternos
 
-* Anti-Adblock баннер
+* Реклама буста ОЗУ
+
 ```
-@@||aternos.org^$shide
+aternos.org##.new.boost-cta-box
 ```
 
 ### Яндекс
