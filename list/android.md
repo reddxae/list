@@ -23,7 +23,7 @@ Telegram:
 * [Plus Messenger.](https://t.me/PlusMessengerUpdates) Идейный собрат ныне покойного [BGram.](https://t.me/BGramChannel) Содержит огромное количество функций и широкую кастомизацию.
 * [Nagram.](https://t.me/nagram_channel) Клиент Telegram, совмещающий в себе функционал обычного [Nekogram](https://github.com/reddxae/list/blob/main/list/android.md#:~:text=%D1%81%D0%B2%D0%BE%D0%B9%20%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BE%D0%B4.-,Nekogram.,-%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%20%D1%81%20%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%D0%BE%D0%BC) и одноимённой [X-версии.](https://t.me/NekogramX)
 
-<sup>`(LSPosed)`</sup> [Killergram Neo.](https://github.com/AetherMagee/KillergramNeo/tags) Модуль для всех актуальных клиентов Telegram. Опционально позволяет заменить стоковые иконки интерфейса в приложении на Solar, скрыть инстории, отключить автовоспроизведение медиа по кнопке громкости, удалить рекламу из каналов, разрешить пересылку из защищенный каналов, снять лимит на количество аккаунтов в приложении, форсировать использование системных шрифтов.
+<sup>`(LSPosed)`</sup> [Killergram Neo.](https://github.com/AetherMagee/KillergramNeo/tags) Модуль для всех актуальных клиентов Telegram. Опционально позволяет заменить стоковые иконки интерфейса в приложении на Solar, скрыть истории, отключить автовоспроизведение медиа по кнопке громкости, удалить рекламу из каналов, разрешить пересылку из защищенных каналов, снять лимит на количество аккаунтов в приложении, форсировать использование системных шрифтов.
 
 Matrix: 
 * [Element для Matrix.](https://element.io/download)
@@ -80,7 +80,8 @@ Discord:
 * <sup>`(Модуль / Android 13+)`</sup> [PixelXpert.](https://github.com/siavash79/PixelXpert) Кастомизация из сторонних прошивок для стоковой прошивки Pixel/чистого AOSP.
   * Кстати, если вам нужны стили иконок для статус-бара или плиток в быстрых настройках, [используйте старую версию модуля](https://github.com/siavash79/PixelXpert/releases/tag/v2.9.0) (ранее он назывался AOSPMods). Работает только на Android <13.
 * <sup>`(Shizuku / Android 12+)`</sup>[Better Internet Tiles.](https://github.com/CasperVerswijvelt/Better-Internet-Tiles) Возвращает раздельные тайлы для мобильного интернета и Wi-Fi.
-* <sup>`(Модуль / Android 12+)`</sup> [Шрифт Inter.](https://github.com/LeddaZ/inter-font-pack/)<sup>[`ℹ️`](https://rsms.me/inter/)</sup> 
+* <sup>`(Модуль / Android 15+)`</sup> [Шрифт Inter.](https://github.com/reddxae/protonaosp-font-pack)<sup>[`ℹ️`](https://rsms.me/inter/)</sup> 
+  * для предыдущих версий Android, файлы можно найти [здесь.](https://github.com/ihfandicahyo/proton-aosp-stuff)
 * <sup>`(Модуль / Android 12+)`</sup> [Эмодзи из iOS.](https://github.com/Keinta15/Magisk-iOS-Emoji)<sup>[`ℹ️`](https://emojipedia.org/apple)</sup>
 * <sup>`(Модуль / Android 13+)`</sup> [BetterQS.](https://github.com/reddxae/list/blob/files/better_qs.zip) Удобная разметка панели быстрого доступа при горизонтальной ориентации экрана.<sup>[`ℹ️`](https://github.com/reddxae/list/blob/files/betterqs_preview.png)</sup>
 * <sup>`(Модуль / Android 11+)`</sup> [Модуль, отключающий эффект приближения обоев на рабочем столе при разблокировке устройства и открытии/сворачивании приложения.](https://github.com/reddxae/list/blob/files/wall_zoom_anim_disabler.zip)

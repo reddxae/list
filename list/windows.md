@@ -11,6 +11,7 @@
 * [SKTimeStamp.](https://tools.stefankueng.com/SKTimeStamp.html) Добавляет раздел для точного изменения времени создания/модификации/открытия через свойства файла в Проводнике.
 * [Windows Terminal.](https://github.com/microsoft/terminal/) Терминал от Microsoft с широкой кастомизацией, поддерживает любые виды консолей, будь то cmd, PowerShell или WSL. Сразу ставьте как приложение для командной строки по умолчанию.<sup>[`ℹ️`](https://learn.microsoft.com/ru-ru/windows/terminal/install#set-your-default-terminal-application)</sup>
 * [SuperF4.](https://github.com/stefansundin/superf4/releases/download/v1.4/SuperF4-1.4.exe) «Принудительно закрывает»‎ зависшее окно, иными словами убивает его процесс, по сочетанию клавиш Ctrl+Alt+F4. То есть используется вами вместо стандартного сочетания Alt+F4, которое в случаях повисшего процесса не помогает.
+* [Notepad Replacer.](https://www.binaryfortress.com/NotepadReplacer/) Замена классического Блокнота на вашу программу.
 * [Monitorian.](https://apps.microsoft.com/store/detail/monitorian/9NW33J738BL0) Изменение яркости внешних мониторов<sup>[`ℹ️`](https://github.com/emoacht/Monitorian#detection-of-external-monitors)</sup> через Windows.
 * [System Informer.](https://github.com/winsiderss/systeminformer) Свободный форк Process Explorer/Hacker с поддержкой тёмной темы (Options → General → Enable theme support). Управление работающими процессами в системе. Расширенная альтернатива диспетчера задач и монитора ресурсов.
 
