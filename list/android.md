@@ -241,7 +241,7 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * <sup>`(Android 14+)`</sup> [CaptureSposed.](https://github.com/99keshav99/CaptureSposed) Отключает API обнаружения скриншотов приложениями.<sup>[`ℹ️`](https://github.com/99keshav99/CaptureSposed#capturesposed)</sup> 
 * [Enable Screenshot (Disable FLAG_SECURE).](https://github.com/LSPosed/DisableFlagSecure) Отключает способность приложений обнаруживать и запрещать скриншоты/запись экрана.
 * <sup>`(Android 14+)`</sup> [Circe to Search Spoofer.](https://github.com/fillwithjoy1/circle-to-search-spoofer) Спуф устройства под Pixel 8 Pro для активации функции Обвести для поиска. Применяется исключительно к приложению Google (`com.google.android.googlequicksearchbox`).
-* [Pixelify GPhotos.](https://github.com/BaltiApps/Pixelify-Google-Photos) Безлимитное копирование фотографий в исходном качестве. Для активации выберите подмену устройства под Pixel XL. Применяется исключительно к приложению Google Фото (`com.google.android.apps.photos`).
+* [Pixelify GPhotos.](https://github.com/miIiano/Pixelify-Google-Photos) Безлимитное копирование фотографий в исходном качестве. Для активации выберите подмену устройства под Pixel XL. Применяется исключительно к приложению Google Фото (`com.google.android.apps.photos`).
 * <sup>`(Android 12+)`</sup> [Let Me Downgrade.](https://github.com/DavidBerdik/Let-Me-Downgrade) Откат версии приложения с сохранением данных.
 
 >
