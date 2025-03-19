@@ -83,7 +83,7 @@ Discord:
 * <sup>`(Модуль / Android 15+)`</sup> [Шрифт Inter.](https://github.com/reddxae/protonaosp-font-pack)<sup>[`ℹ️`](https://rsms.me/inter/)</sup> 
   * для предыдущих версий Android, файлы можно найти [здесь.](https://github.com/ihfandicahyo/proton-aosp-stuff)
 * <sup>`(Модуль / Android 12+)`</sup> [Эмодзи из iOS.](https://github.com/Keinta15/Magisk-iOS-Emoji)<sup>[`ℹ️`](https://emojipedia.org/apple)</sup>
-* <sup>`(Модуль / Android 13+)`</sup> [BetterQS.](https://github.com/reddxae/list/blob/files/better_qs.zip) Удобная разметка панели быстрого доступа при горизонтальной ориентации экрана.<sup>[`ℹ️`](https://github.com/reddxae/list/blob/files/betterqs_preview.png)</sup>
+* <sup>`(Модуль / Android 13+)`</sup> [Split Shade (BetterQS).](https://github.com/reddxae/list/blob/files/split-shade.zip) Удобная разметка панели быстрого доступа и уведомлений при горизонтальной ориентации экрана.<sup>[`ℹ️`](https://github.com/reddxae/list/blob/files/betterqs_preview.png)</sup>
 * <sup>`(Модуль / Android 11+)`</sup> [Модуль, отключающий эффект приближения обоев на рабочем столе при разблокировке устройства и открытии/сворачивании приложения.](https://github.com/reddxae/list/blob/files/wall_zoom_anim_disabler.zip)
 * <sup>`(LSPosed / Android 12+)`</sup> [Модуль, отключающий анимацию "волны" при разблокировке устройства.](https://github.com/reddxae/list/blob/files/disable_ripple_on_unlock.apk) Полезно, если у вас она систематически подтормаживает.
 * <sup>`(Модуль)`</sup> [Всякая хрень для статус-бара.](https://www.pling.com/p/1488365/) Может пригодиться, если, например, вы используете набор иконок Circular или Outline, и вам не нравится сильно бросающийся в глаза жирный шрифт у значка LTE. Тогда можно заменить его на иконку 4G или LTE+ в стиле Android 11.
@@ -209,6 +209,7 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * [Basic Call Recorder.](https://github.com/chenxiaolong/BCR#readme) Запись вызовов.
   * [bcr-gui.](https://github.com/nicorac/bcr-gui) Интерфейс для управления сохраненными записями.
 * [JamesDSP.](https://github.com/Zackptg5/JamesDSPManager/blob/master/install.zip) При установке рекомендую выбирать интерфейс от [ThePBone.](https://github.com/timschneeb)
+* [Font Loader.](https://github.com/JingMatrix/FontLoader) Предзагружает файлы кастомных шрифтов с помощью Zygisk для приложений, для которых модули размонтированы, тем самым предотвращая вылет из-за невозможности доступа приложения к шрифтам. 
 * [KTweak.](https://t.me/ktweak) Безопасные твики производительности, разделенные на пресеты с разными нуждами.
 * [Global Optimized GPS.](https://github.com/skyrocketingHong/OptmizedGPSConf) Улучшение и ускорение фиксации/блокировки спутниковых сигналов.
 * [DriveDroid Fix.](https://github.com/overzero-git/DriveDroid-fix-Magisk-module) Восстаналивает работу DriveDroid на новых версиях Android.
