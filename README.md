@@ -16,30 +16,28 @@
 > [!CAUTION]
 > На некоторых прошивках модуль приводит к бутлупу или перезагрузке в fastboot. Пожалуйста, сохраните важные данные перед установкой, а лучше и вовсе проверьте работоспособность на чистой системе перед использованием на основном сетапе.
 
-[Скачать модуль](https://github.com/begoniacommunity/list/blob/files/disable_logs.zip)
+[Скачать модуль](https://github.com/reddxae/list/blob/files/disable_logs.zip)
 
-## Split Shade (BetterQS)
-Эстетически правильная и удобная разметка панели быстрого доступа при горизонтальной ориентации экрана. [Превью.](https://github.com/begoniacommunity/list/blob/files/betterqs_preview.png)  
+## Split Shade (широко известен как BetterQS)
+Удобная разметка панели быстрого доступа и уведомлений при горизонтальной ориентации экрана. [Превью.](https://github.com/reddxae/list/blob/files/betterqs_preview.png)  
 
-[Скачать модуль](https://github.com/begoniacommunity/list/blob/files/better_qs.zip)
+Что сделано:
+- Убран бесполезный сброс варианта выреза в экране на nocutout.
+- Упрощение скриптов, поддержка KernelSU.
 
-## LSPosed No Logs
-LSPosed с поддержкой Android 15+ без внутренних логов, что позволяет избежать обнаружения приложениями.  
-
-[Скачать модуль](https://github.com/begoniacommunity/list/blob/files/lsposed_no-logs.zip)
+[Скачать модуль](https://github.com/reddxae/list/blob/files/split-shade.zip)
 
 ## Disable Ripple On Unlock
 Отключает анимацию волны при разблокировке экрана (Android 12+).
 
-[Скачать модуль](https://github.com/begoniacommunity/list/blob/files/disable_ripple_on_unlock.apk)
+[Скачать модуль (LSPosed)](https://github.com/reddxae/list/blob/files/disable_ripple_on_unlock.apk)
 
 ## Wallpaper Zoom Animation Disabler
 Отключает анимацию приближения/отдаления обоев при разблокировке экрана и запуске/сворачивании приложений (Android 11+).
 
-[Скачать модуль](https://github.com/begoniacommunity/list/blob/files/wall_zoom_anim_disabler.zip)
+[Скачать модуль](https://github.com/reddxae/list/blob/files/wall_zoom_anim_disabler.zip)
 
 ## Magical OverlayFS
 Поддерживает новые версии Magisk, APatch и KernelSU.
 
-[Скачать модуль](https://github.com/begoniacommunity/list/blob/files/magisk-overlayfs-v3.2.2-fixed.zip)  
-[Ещё один актуализированный вариант](https://github.com/backslashxx/magic_overlayfs/tree/maintenance/magisk-module)
+[Скачать модуль](https://github.com/reddxae/list/blob/files/magisk-overlayfs-v3.2.2-fixed.zip)  
