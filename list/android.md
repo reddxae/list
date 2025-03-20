@@ -220,19 +220,7 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * [Disable logs.](https://github.com/reddxae/list/tree/files#disable-logs) Отключение логгирования.
 * [BitGApps.](https://bitgapps.io/) Бессистемная установка GApps.
 * [microG Installer Revived.](https://github.com/nift4/microg_installer_revived) Почти единственный актуальный установщик microG для Magisk. Включает в себя всё для стабильной работы (включая пуши и геолокацию). Если прошивка не поддерживает подмену подписи, активируем её через [этот модуль для LSPosed.](https://github.com/whew-inc/FakeGApps/releases) 
-<details>
-
-<summary>microG Installer Revived: Если нужна синхронизация контактов и календаря с Google-аккаунтом</summary>
-
-Действия производим после установки модуля.  
-Не проверял, работает ли синхроинзация уже после входа в аккаунт, но должна. В противном случае просто перелогиньтесь.
-
-1. Скачиваем последние версии [Google Contacts Sync](https://apkmirror.com/apk/google-inc/google-contacts-sync/) и [Google Calendar Sync](https://apkmirror.com/apk/google-inc/google-calendar-sync/) для вашей версии Android. Переименовываем файлы в `GoogleContactsSyncAdapter.apk` и `GoogleCalendarSyncAdapter.apk`.
-2. Проходим по пути `/data/adb/modules/microg_revived/system/app` и создаём две одноименные папки (`GoogleContactsSyncAdapter` и `GoogleCalendarSyncAdapter`). 
-3. Переносим файлы соответственно. Каждому файлу выдаём права (chmod) 0644. Перезагружаем систему, идём в настройки приложений и выдаём им все запрашиваемые разрешения. 
-
-</details>
-
+  - [microG Sync Services.](https://github.com/reddxae/list/blob/files/microg-sync-services.zip) Добавляет сервисы синхронизации данных для Google Контактов и Календаря.
 * [zygisk-detach.](https://github.com/j-hc/zygisk-detach) Блокировка автообновления приложений через Google Play путём скрытия их наличия в системе от маркета. Мастхэв при установленном ReVanced rooted-методом.
   * [zygsik-detach-app.](https://github.com/j-hc/zygisk-detach-app) Интерфейс для модуля.
 
