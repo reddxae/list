@@ -73,6 +73,12 @@ yandex.*##:matches-path(/weather) .header-b2b__menu-item
 ##yt-button-shape > button[aria-label="Thanks"]
 ```
 
+### crDroid
+* Обнаружение адблока
+```
+||crdroid.net/js/checker.js
+```
+
 </details>
 
 * [SponsorBlock.](https://sponsor.ajay.app/) Автоматически пропускает любые рекламные секции в видео на YouTube. Это community-powered проект, т.е. вы можете самостоятельно отмечать секции для пропуска, которые будут распространены для всех пользователей.
