@@ -2,7 +2,7 @@
 >
 > [!NOTE]
 > [Перманентная активация Windows 10-11 с серверной привязкой по железу:](https://github.com/massgravel/Microsoft-Activation-Scripts)  
-Открываем PowerShell, запускаем команду `irm massgrave.dev/get | iex`, выбираем **[1] HWID.** Готово.  
+Открываем PowerShell, запускаем команду `irm get.activated.win | iex`, выбираем **[1] HWID.** Готово.  
 
 ### ⚙️ Настройка и дополнения к системе
 * [SophiApp.](https://github.com/Sophia-Community/SophiApp) Тонкая подстройка рабочего окружения под себя. Использует только то, что реализуемо путём задокументированного разработчиками Windows функционала.<sup>[`ℹ️`](https://github.com/Sophia-Community/SophiApp?tab=readme-ov-file#key-features)</sup>
