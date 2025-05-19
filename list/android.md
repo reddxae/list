@@ -212,13 +212,13 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 
 ## Модули для Magisk
 * [Net Switch.](https://github.com/Rem01Gaming/net-switch) Простой фаервол на iptables для ограничения доступа в интернет конкретным приложениям.
+* [Hide My Applist.](https://github.com/Dr-TSNG/Hide-My-Applist) Скрытие отдельных приложений.
 * [ViPER4Android Repackaged.](https://github.com/programminghoch10/ViPER4AndroidRepackaged)
   * [ViperFX RE (Material Design 3)](https://github.com/WSTxda/ViperFX-RE-Releases) Дополнительно нужен [драйвер.](https://github.com/WSTxda/ViPERFX_RE/releases)
-* [JamesDSPManager.](https://github.com/Zackptg5/JamesDSPManager/blob/master/install.zip) Актуальный установщик root-версии JamesDSP. Дальнейшие обновления приходят автоматически в приложении. 
+* [JamesDSPManager.](https://github.com/Zackptg5/JamesDSPManager/blob/master/install.zip) Актуальный установщик root-версии JamesDSP (при установке рекомендую выбирать интерфейс от [ThePBone](https://github.com/timschneeb)). Дальнейшие обновления приходят автоматически в приложении. 
 * [Call Recording](https://modules.lsposed.org/module/io.github.vvb2060.callrecording/) для Google Телефона. Простой модуль без интерфейса, который убирает региональные ограничения на доступ к самой функции записи вызовов и убирает предупреждение о начале записи (обратите внимание: предупреждение перестанет воспроизводиться только после совершения первого звонка с записью вызовов, т.е. при активации записи в первый раз, предупреждение будет озвучено на линии собеседнику, а уже следующие разы будут без предупреждения. Чтобы обойти это, включите автоматическую запись вызовов в настройках и подтвердите согласие на отказ от ответственности во всплывающем окне. Затем фукнцию можно отключить и пользоваться только ручной активацией).
 * [Basic Call Recorder.](https://github.com/chenxiaolong/BCR#readme) Стороннее приложения для записи вызовов.
   * [bcr-gui.](https://github.com/nicorac/bcr-gui) Интерфейс для управления сохраненными записями.
-* [JamesDSP.](https://github.com/Zackptg5/JamesDSPManager/blob/master/install.zip) При установке рекомендую выбирать интерфейс от [ThePBone.](https://github.com/timschneeb)
 * [Font Loader.](https://github.com/JingMatrix/FontLoader) Предзагружает файлы кастомных шрифтов с помощью Zygisk для приложений, для которых модули размонтированы, тем самым предотвращая вылет из-за невозможности доступа приложения к шрифтам. 
 * [KTweak.](https://t.me/ktweak) Безопасные твики производительности, разделенные на пресеты с разными нуждами. Не требуется для современных устройств.
 * [Global Optimized GPS.](https://github.com/skyrocketingHong/OptmizedGPSConf) Улучшение и ускорение фиксации/блокировки спутниковых сигналов.
