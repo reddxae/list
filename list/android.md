@@ -213,7 +213,8 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 ## Модули для Magisk
 * [Net Switch.](https://github.com/Rem01Gaming/net-switch) Простой фаервол на iptables для ограничения доступа в интернет конкретным приложениям.
 * [ViPER4Android Repackaged.](https://github.com/programminghoch10/ViPER4AndroidRepackaged)
-  * [ViperFX RE (Material Design 3)](https://github.com/WSTxda/ViperFX-RE-Releases) Дополнительно нужен [драйвер.](https://github.com/WSTxda/ViPERFX_RE/releases)\
+  * [ViperFX RE (Material Design 3)](https://github.com/WSTxda/ViperFX-RE-Releases) Дополнительно нужен [драйвер.](https://github.com/WSTxda/ViPERFX_RE/releases)
+* [JamesDSPManager.](https://github.com/Zackptg5/JamesDSPManager/blob/master/install.zip) Актуальный установщик root-версии JamesDSP. Дальнейшие обновления приходят автоматически в приложении. 
 * [Call Recording](https://modules.lsposed.org/module/io.github.vvb2060.callrecording/) для Google Телефона. Простой модуль без интерфейса, который убирает региональные ограничения на доступ к самой функции записи вызовов и убирает предупреждение о начале записи (обратите внимание: предупреждение перестанет воспроизводиться только после совершения первого звонка с записью вызовов, т.е. при активации записи в первый раз, предупреждение будет озвучено на линии собеседнику, а уже следующие разы будут без предупреждения. Чтобы обойти это, включите автоматическую запись вызовов в настройках и подтвердите согласие на отказ от ответственности во всплывающем окне. Затем фукнцию можно отключить и пользоваться только ручной активацией).
 * [Basic Call Recorder.](https://github.com/chenxiaolong/BCR#readme) Стороннее приложения для записи вызовов.
   * [bcr-gui.](https://github.com/nicorac/bcr-gui) Интерфейс для управления сохраненными записями.
@@ -243,13 +244,12 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * [Pixelify GPhotos.](https://github.com/miIiano/Pixelify-Google-Photos) Безлимитное копирование фотографий в исходном качестве. Для активации выберите подмену устройства под Pixel XL. Применяется исключительно к приложению Google Фото (`com.google.android.apps.photos`).
 * <sup>`(Android 12+)`</sup> [Let Me Downgrade.](https://github.com/DavidBerdik/Let-Me-Downgrade) Откат версии приложения с сохранением данных.
 
->
 > [!WARNING]
 > Эти модули встраиваются в финансовые приложения. Используйте на свой страх и риск!
 * [Yandex Maps Patcher.](https://github.com/Xposed-Modules-Repo/ru.bluecat.yandexmapspatcher) Скрытие рекламы в приложении Карт.
+* [Marketplace Adaway.](https://github.com/Xposed-Modules-Repo/ru.bluecat.marketplaceadaway) Скрывает назойливую рекламу в приложениях российских маркетплейсов.
 * [Sberbank Patcher.](https://github.com/Xposed-Modules-Repo/ru.bluecat.sberbankpatcher) Различные QOL-изменения в приложении Сбербанка: отключение панелей "Прайма", Ассистента, автообновления, антивируса и прочего шлака.
 * [Alfabank Patcher.](https://github.com/Xposed-Modules-Repo/ru.bluecat.alfabankpatcher) Скрытие рекламы различного формата и управление push-уведомлениями.
-* [Megafon Cleaner.](https://github.com/Xposed-Modules-Repo/ru.bluecat.megafoncleaner) Скрытие баннеров и предложений в приложении Мегафон.
 
 ## Shizuku
 * [Shizuku.](https://shizuku.rikka.app/) Предоставление повышенных прав приложениям через adb с использованием локального сервера.  
