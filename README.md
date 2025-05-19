@@ -9,7 +9,6 @@
 ___
 [🤖 Android](/list/android.md)  
 [⌚️ WearOS](/list/wearos.md)  
-[🥷 Скрытие модификаций в Android](/list/hide_root_android.md)  
 ___
 [🌐 Браузерные дополнения](/list/browser_add-ons.md)  
 ___

@@ -122,9 +122,6 @@ yandex.*##:matches-path(/weather) .header-b2b__menu-item
    background: #f03 !important;
    background-color: #f03 !important;
 }
-#yt-ringo2-svg_yt10 path:first-of-type {
-   fill: #f03 !important;
-}
 ```
 
 Исправляем пропорции превью на странице воспроизведения:
@@ -144,6 +141,28 @@ yandex.*##:matches-path(/weather) .header-b2b__menu-item
 ```css
 .ytd-search ytd-shelf-renderer:has([id="dismissible"]) {
    display: none !important;
+}
+```
+
+Прежняя разметка сетки рекомендаций:
+
+```
+[page-subtype="home"],
+[page-subtype="subscriptions"] {
+    #contents {
+        @media (min-width: 1100px) {
+            --ytd-rich-grid-items-per-row: 3 !important;
+        }
+        @media (min-width: 1500px) {
+            --ytd-rich-grid-items-per-row: 4 !important;
+        }
+        @media (min-width: 1800px) {
+            --ytd-rich-grid-items-per-row: 5 !important;
+        }
+        @media (min-width: 2100px) {
+            --ytd-rich-grid-items-per-row: 6 !important;
+        }
+    }
 }
 ```
 
