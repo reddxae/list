@@ -34,6 +34,7 @@ aternos.org##.new.boost-cta-box
 /^ya\.ru|yandex/##.i-mini-bem:has([class*="tgo__mark"]:has-text(/^[РP]{1}[еe]{1}кл[аa]{1}м[аa]{1}$/i))
 /^ya\.ru|yandex/##.i-mini-bem:has([class*="tgo__mark"]:has-text(/^[AА]{1}d$/i))
 /^ya\.ru|yandex/##.main-home-banner
+/^ya\.ru|yandex/##.main__carousel:has([class*="AdvProductGallery"])
 ```
 
 * Реклама на странице погоды. Убирает современный вид страницы, возвращая сводку по дням
