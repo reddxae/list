@@ -117,7 +117,7 @@ yandex.*##:matches-path(/weather) .header-b2b__menu-item
 #progress.ytd-thumbnail-overlay-resume-playback-renderer,
 #progress.yt-page-navigation-progress,
 .yt-spec-avatar-shape--live-ring::after,
-.ytProgressBarLineProgressBarPlayedRefresh,
+.ytProgressBarLineProgressBarPlayed,
 .ytp-play-progress {
    background: #f03 !important;
    background-color: #f03 !important;
