@@ -5,8 +5,8 @@
 Открываем PowerShell, запускаем команду `irm https://get.activated.win | iex`, выбираем **[1] HWID.** Готово.  
 
 ### ⚙️ Настройка, дополнения и системные утилиты
-* [Sophia Script.](https://github.com/farag2/Sophia-Script-for-Windows) Тонкая подстройка рабочего окружения под себя. Использует только то, что реализуемо путём задокументированного разработчиками Windows функционала. Перед началом работы, **обязательно проверяйте совместимость** текущей версии скрипта с вашей сборкой Windows.
-  * [SophiApp.](https://github.com/Sophia-Community/SophiApp) Sophia Script, завернутый в удобный пользовательский интерфейс с дополнительным описанием к каждой опции.<sup>[`ℹ️`](https://github.com/Sophia-Community/SophiApp?tab=readme-ov-file#key-features)</sup> Находится в стадии вечной разработки и может быть несовместим с последними сборками Windows. 
+* [Sophia Script.](https://github.com/farag2/Sophia-Script-for-Windows) Тонкая подстройка рабочего окружения под себя. Использует только то, что реализуемо путём задокументированной разработчиками Windows функциональности. Перед началом работы, **обязательно проверяйте совместимость** текущей версии скрипта с вашей сборкой Windows.
+  * [SophiApp.](https://github.com/Sophia-Community/SophiApp) Sophia Script, завернутый в удобный пользовательский интерфейс с дополнительным описанием к каждой опции.<sup>[`ℹ️`](https://github.com/Sophia-Community/SophiApp?tab=readme-ov-file#key-features)</sup> Находится в стадии вечной разработки и может быть несовместим с последними сборками Windows.
 * [VisualCppRedist AIO.](https://github.com/abbodi1406/vcredist) Сборник всех устанавливаемых Visual C++ Redistributable 2005-2022.
   * [.NET Runtime](https://dotnet.microsoft.com/en-us/download/dotnet-framework)<sup>[`ℹ️`](https://github.com/reddxae/list/blob/main/list/info.md#net-runtime)</sup> и [VCLibs.](https://learn.microsoft.com/ru-ru/troubleshoot/developer/visualstudio/cpp/libraries/c-runtime-packages-desktop-bridge#how-to-install-and-update-desktop-framework-packages)<sup>[`ℹ️`](https://github.com/reddxae/list/blob/main/list/info.md#vclibs)</sup> Порой нужные зависимости.
 * [SKTimeStamp.](https://tools.stefankueng.com/SKTimeStamp.html) Добавляет раздел для точного изменения времени создания/модификации/открытия через свойства файла в Проводнике.
@@ -66,7 +66,7 @@
 * [Mp3tag.](https://mp3tag.de/en/download.html) Редактирование метаданных в аудиофайлах.
 
 ### 🔈 Настройка звука
-* [Alternative A2DP Driver.](https://bluetoothgoodies.com/a2dp/) Незаменимая вещь для владельцев Bluetooth-наушников с поддержкой HiRes кодеков aptX HD, aptX HD Low Latency и LDAC. По умолчанию, Windows умеет работать только с AAC (Windows 11)/SBC/aptX кодеками, что существенно режет качество воспроизводимого аудио. Данная программа действительно панацея, но... Внимание: платно! Есть пробный период, в течение которого доступен весь функционал. Проверьте совместимость с вашими наушниками, затем либо программа прекращает работу, либо вами покупается перманентная лицензия с привязкой по железу — $5.99. В рублях, на момент написания текста, это ~850 руб. оплатой через карту, [приобретённую на Plati.market.](https://plati.io/itm/1065234)
+* [Alternative A2DP Driver.](https://bluetoothgoodies.com/a2dp/) Незаменимая вещь для владельцев Bluetooth-наушников с поддержкой HiRes кодеков aptX HD, aptX HD Low Latency и LDAC. По умолчанию, Windows умеет работать только с AAC (Windows 11)/SBC/aptX кодеками, что существенно режет качество воспроизводимого аудио. Данная программа действительно панацея, но... Внимание: платно! Есть пробный период, в течение которого доступна вся функциональность. Проверьте совместимость с вашими наушниками, затем либо программа прекращает работу, либо вами покупается перманентная лицензия с привязкой по железу — $5.99. В рублях, на момент написания текста, это ~850 руб. оплатой через карту, [приобретённую на Plati.market.](https://plati.io/itm/1065234)
 * [EqualizerAPO.](https://sourceforge.net/projects/equalizerapo/) Лучший эквлайзер для Windows, легко устаналивается и не вредит системе. Имеет широкий спектр различных настроек, возможность сохранять/применять пресеты для разных параметров.
 * [EQAPOtoGraphicEQ.](https://github.com/zettonaender/eqapotographiceq-gui) Конвертация настроек Parametric EQ/Convolution EQ из EqualizerAPO или Peace в формат AutoEQ (например, для Wavelet). Рекомендую использовать Python-версию.
 
@@ -105,7 +105,7 @@
 * [Sysinternals Suite.](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) Ещё один набор мелких утилит. Можно скачать всё разом, [либо необходимое по отдельности.](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite#introduction)
 
 ## ✈️ Telegram
-* [AyuGram Desktop.](https://github.com/AyuGram/AyuGramDesktop) Клиент без рекламы [с большим количеством полезного функционала,](https://docs.ayugram.one/desktop/) некоторый из которого нарушает ToS. Будьте осторожны, существует риск блокировки аккаунта.
+* [AyuGram Desktop.](https://github.com/AyuGram/AyuGramDesktop) Клиент без рекламы [с большим количеством полезных функций,](https://docs.ayugram.one/desktop/) часть которых нарушает ToS. Будьте осторожны, существует риск блокировки аккаунта.
 * [64Gram.](https://github.com/TDesktop-x64/tdesktop) Легкий клиент [c базовыми функциями](https://github.com/TDesktop-x64/tdesktop/blob/dev/features.md) и небольшим количеством эксклюзивных дополнений (например, конвертирование чатов в супергруппы).
 * [Unigram.](https://github.com/UnigramDev/Unigram) UWP-клиент c Fluent дизайном. Анимации подтормаживают уже не так сильно, как раньше, и в целом клиент юзабельный. Но все ещё сильно уступает Telegram Desktop по удобству и быстродействию. 
 
