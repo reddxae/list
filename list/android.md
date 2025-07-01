@@ -77,7 +77,7 @@ Matrix:
 * <sup>`(Android 14+)`</sup> [Погода Pixel.](https://www.apkmirror.com/apk/google-inc/pixel-weather/) Прогноз погоды от Google.
 
 ### 🔍 Поиск
-* [Поиск Pixel.](https://4pda.to/forum/index.php?showtopic=1095929) Поиск в интернете и на устройстве как в Pixel Launcher (начиная с Android 13 QPR1+). [Рекомендую мой русифицированный мод.](https://4pda.to/forum/index.php?showtopic=1095929&view=findpost&p=132797216)
+* [Поиск Pixel.](https://4pda.to/forum/index.php?showtopic=1095929) Поиск в интернете и на устройстве, как в Pixel Launcher (начиная с Android 13 QPR1+). [Рекомендую мой русифицированный мод.](https://4pda.to/forum/index.php?showtopic=1095929&view=findpost&p=132797216)
 * [MiCTS.](https://github.com/parallelcc/MiCTS/blob/main/README_en.md) Активация функции "Обвести для поиска" от Google на любых устройствах.
 * [SauceNAO.](https://f-droid.org/ru/packages/com.luk.saucenao/) Android-клиент [одноимённого сервиса](https://saucenao.com/) для реверсивного поиска изображений.
 
