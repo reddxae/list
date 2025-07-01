@@ -53,5 +53,4 @@
 * [Огромная подборка свободного софта под разные платформы.](https://github.com/paulaime/awesome-privacy)
 
 ### Игры
-* [Обход требования/проверки лицензии через Microsoft](https://github.com/antunnitraj/Prism-Launcher-PolyMC-Offline-Bypass) в [Prism Laucnher для Minecraft.](https://github.com/PrismLauncher/PrismLauncher) 
-
+* [Обход требования/проверки лицензии через Microsoft](https://github.com/antunnitraj/Prism-Launcher-PolyMC-Offline-Bypass) в [Prism Laucnher для Minecraft.](https://github.com/PrismLauncher/PrismLauncher)

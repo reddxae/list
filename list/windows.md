@@ -1,8 +1,8 @@
-# 🪟 Windows:  
+# 🪟 Windows:
 >
 > [!NOTE]
 > [Перманентная активация Windows 10-11 с серверной привязкой по железу:](https://github.com/massgravel/Microsoft-Activation-Scripts)  
-Открываем PowerShell, запускаем команду `irm https://get.activated.win | iex`, выбираем **[1] HWID.** Готово.  
+Открываем PowerShell, запускаем команду `irm https://get.activated.win | iex`, выбираем **[1] HWID.** Готово.
 
 ### ⚙️ Настройка, дополнения и системные утилиты
 * [Sophia Script.](https://github.com/farag2/Sophia-Script-for-Windows) Тонкая подстройка рабочего окружения под себя. Использует только то, что реализуемо путём задокументированной разработчиками Windows функциональности. Перед началом работы, **обязательно проверяйте совместимость** текущей версии скрипта с вашей сборкой Windows.
@@ -18,8 +18,8 @@
 
 ### 🎨 Персонализация интерфейса
 * [BeautySearch.](https://github.com/krlvm/BeautySearch) Модификации для поиска встроенного в панель задач.
-* <sup>`(Windows 11)`</sup>[MicaForEveryone.](https://github.com/MicaForEveryone/MicaForEveryone) Кастомизация внешнего вида окон Win32-приложений. 
-* <sup>`(Windows 11)`</sup>[StartAllBack.](https://t.me/repack_me_clone) Незаменимый софт для комфортного перехода с Windows 10 на 11. Можно использовать пресет "Правильная 11", либо настроить всё вручную. Нормальная панель задач, кардинально переработанный тёмный режим, покраска в акцентный цвет для Win32-элементов, акриловый фон для классического контекстного меню, регулировка громкости колёсиком мыши по значку по панели задач и другие настройки. 
+* <sup>`(Windows 11)`</sup>[MicaForEveryone.](https://github.com/MicaForEveryone/MicaForEveryone) Кастомизация внешнего вида окон Win32-приложений.
+* <sup>`(Windows 11)`</sup>[StartAllBack.](https://t.me/repack_me_clone) Незаменимый софт для комфортного перехода с Windows 10 на 11. Можно использовать пресет "Правильная 11", либо настроить всё вручную. Нормальная панель задач, кардинально переработанный тёмный режим, покраска в акцентный цвет для Win32-элементов, акриловый фон для классического контекстного меню, регулировка громкости колёсиком мыши по значку по панели задач и другие настройки.
 * <sup>`(Windows 10/11)`</sup>[ExplorerBlurMica.](https://github.com/Maplespe/ExplorerBlurMica) Софт для настройки эффекта акрила (как в Windows 10) или Mica для окон Проводника.
 
 <details>
@@ -27,19 +27,19 @@
 <summary>Рекомендуемые настройки для Windows 11</summary>
 
 1. Для [MicaForEveryone:](https://github.com/MicaForEveryone/MicaForEveryone) проставить всё на "По умолчанию" в разделе "Глобальное правило", в дальнейшем создавая для каждой программы отдельный конфиг. Цвет заголовка окна выбирайте в соответствии с темой программы; фон на Tabbed; включить "Расширить рамку окна в клиентскую область".
-2. [StartAllBack:](https://www.startallback.com/) открыть окно "Выполнить" (Win+R), запустить команду `startisbackcfg /magic`. Откроется окно свойств StartAllBack в разделе Magic, включаем пункт Cast dark magic. 
+2. [StartAllBack:](https://www.startallback.com/) открыть окно "Выполнить" (Win+R), запустить команду `startisbackcfg /magic`. Откроется окно свойств StartAllBack в разделе Magic, включаем пункт Cast dark magic.
 3. [ExplorerBlurMica:](https://github.com/Maplespe/ExplorerBlurMica) настраиваем эффект Mica для всех окон Проводника в Windows 11:
    * Должны быть установлены **все три** программы: Mica For Everyone, StartAllBack и ExplorerBlurMica.
    * В StartAllBack должена быть активирована опция Cast dark magic.
    1. Переходим к файлу config.ini, расположенном в папке с ExplorerBlurMica.
    2. Редактируем содержимое строк:  
    `effect` меняем на `2`  
-   `clearWinUIBg` меняем на `false`<sup>[превью](https://github.com/reddxae/list/blob/main/list/info.md#explorerblurmica-false)</sup> или оставляем `true`<sup>[превью](https://github.com/reddxae/list/blob/main/list/info.md#explorerblurmica-true)</sup> – попробуйте, какой вариант больше понравится. 
+   `clearWinUIBg` меняем на `false`<sup>[превью](https://github.com/reddxae/list/blob/main/list/info.md#explorerblurmica-false)</sup> или оставляем `true`<sup>[превью](https://github.com/reddxae/list/blob/main/list/info.md#explorerblurmica-true)</sup> – попробуйте, какой вариант больше понравится.
    3. Открываем Mica For Everyone и полностью удаляем пресет для explorer.
    4. Добавляем правила для классов `#32700` и `OperationStatusWindow`. В обоих устанавливаем параметр Фон на *Tabbed* и включаем Расширение рамки в клиентскую область.
    5. Принудительно перезагружаем Проводник.
 </details>
- 
+
 * [Windhawk.](https://github.com/ramensoftware/windhawk) Инъекции кода в Windows.
   * [Windows 11 Start Menu Styling.](https://github.com/ramensoftware/windows-11-start-menu-styling-guide) [Различные стили](https://github.com/ramensoftware/windows-11-start-menu-styling-guide#themes) для меню Пуск в Windows 11. Например, скрывающий секцию "Рекомендации", или добавляющий разметку с закрепленными приложениями и списком всех приложений. [Инструкция.](https://github.com/ramensoftware/windows-11-start-menu-styling-guide#introduction)
 * [MSEdgeRedirect.](https://github.com/rcmaehl/MSEdgeRedirect) Кастомизация для панелей новостей, погоды; смена стандартного браузера для результатов поиска в Интернете через Поиск Windows.
@@ -90,7 +90,7 @@
 * [Simplewall.](https://henrypp.org/product/simplewall) Настройка трафика с Windows Filtering Platform (WFP).
 
 ### 📀 Запись образов
-* [Rufus.](https://rufus.ie) Базированнейшая тулза для записи образов. 
+* [Rufus.](https://rufus.ie) Базированнейшая тулза для записи образов.
 * [Ventoy.](https://ventoy.net/en/index.html) Софт для создания установочных, мульти/загрузочных флешек. Крайне прост в использовании: достаточно в один клик установить загрузочный раздел, а затем в автоматически созданный пустой раздел положить загрузочный(-е) .iso-образ(-ы). Работает с MBR и GPT (не всегда корректно). Если вы копируете образ на флешку из-под Linux, после копирования **обязательно выполните синхронизацию (sync) раздела.**
 
 ### ⬇️ Управление файлами и загрузками
@@ -107,7 +107,7 @@
 ## ✈️ Telegram
 * [AyuGram Desktop.](https://github.com/AyuGram/AyuGramDesktop) Клиент без рекламы [с большим количеством полезных функций,](https://docs.ayugram.one/desktop/) часть которых нарушает ToS. Будьте осторожны, существует риск блокировки аккаунта.
 * [64Gram.](https://github.com/TDesktop-x64/tdesktop) Легкий клиент [c базовыми функциями](https://github.com/TDesktop-x64/tdesktop/blob/dev/features.md) и небольшим количеством эксклюзивных дополнений (например, конвертирование чатов в супергруппы).
-* [Unigram.](https://github.com/UnigramDev/Unigram) UWP-клиент c Fluent дизайном. Анимации подтормаживают уже не так сильно, как раньше, и в целом клиент юзабельный. Но все ещё сильно уступает Telegram Desktop по удобству и быстродействию. 
+* [Unigram.](https://github.com/UnigramDev/Unigram) UWP-клиент c Fluent дизайном. Анимации подтормаживают уже не так сильно, как раньше, и в целом клиент юзабельный. Но все ещё сильно уступает Telegram Desktop по удобству и быстродействию.
 
 ## 👾 Discord
 
@@ -160,7 +160,7 @@ ___
 * [volt.fm.](https://volt.fm) Сервис сбора и анализа статистики вашего прослушивания. Предоставляет огромное количество полезных данных по жанрам, категориям, промежуткам времени.  
 * [Google-таблица с прямыми ссылками на загрузку оффлайн-установщика всех версий Spotify для Windows.](https://docs.google.com/spreadsheets/d/1wztO1L4zvNykBRw7X4jxP8pvo11oQjT0O5DvZ_-S4Ok)
 * [Скрипт блокировки обновлений настольного клиента Spotify.](https://github.com/amd64fox/Rollback-Spotify)
-* [Полное удаление клиента Spotify из системы.](https://github.com/amd64fox/Uninstall-Spotify)  
+* [Полное удаление клиента Spotify из системы.](https://github.com/amd64fox/Uninstall-Spotify)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 >
 > [!NOTE]
 > Для удобства использования рекомендуется прописать путь к .exe файлу приложения (или к папке, хранящей исполняемые файлы всех приложений) в переменные среды PATH. [Как это сделать](https://remontka.pro/add-to-path-variable-windows)  
-Либо установить эти утилиты через Winget/Chocolatey/Scoop (рекомендуется!).  
+Либо установить эти утилиты через Winget/Chocolatey/Scoop (рекомендуется!).
 
 * [aria2c.](https://aria2.github.io/) Аналог wget, Download Master и прочих. Поддерживает торренты.
 * [ffmpeg.](https://ffmpeg.org/) Конвертер аудио и видео файлов, имеет много фич.
@@ -178,7 +178,7 @@ ___
 * [payload-dumper-go.](https://github.com/ssut/payload-dumper-go) Быстрая разборка payload.bin Android-прошивок на отдельные образы.
 * [Revancify.](https://github.com/decipher3114/Revancify#installation) Удобная сборка и установка ReVanced/ReVanced Extended через Termux.
 * [Chocolatey.](https://community.chocolatey.org/) Пакетный менеджер для Windows в стиле линуксовских apt/pacman. Мощнее встроенного Winget.
-* [Scoop.](https://scoop.sh/) Аналог Chocolatey. В отличии от последнего, устанавливает программы не в систему, а в отдельную папку юзера (`%USERPROFILE%/scoop`), некие "полу-портативные" версии, которые потом легко удалить. 
+* [Scoop.](https://scoop.sh/) Аналог Chocolatey. В отличии от последнего, устанавливает программы не в систему, а в отдельную папку юзера (`%USERPROFILE%/scoop`), некие "полу-портативные" версии, которые потом легко удалить.
 
 ## ⏹ Скрипты
 * [OfflineInsiderEnroll.](https://github.com/abbodi1406/offlineinsiderenroll) Доступ к Windows Insider Program без аккаунта Microsoft.

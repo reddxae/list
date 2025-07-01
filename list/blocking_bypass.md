@@ -19,7 +19,7 @@ ___
    * `1_russia_blacklist.cmd`
    * `1_russia_blacklist_dnsredir.cmd` c перенаправлением DNS-резолвера на DNS Яндекса.
 
-Это установит сервис GoodbyeDPI в Windows, он будет запускаться автоматически вместе с системой. Чтобы удалить, воспользуйтесь `service_remove.cmd`.  
+Это установит сервис GoodbyeDPI в Windows, он будет запускаться автоматически вместе с системой. Чтобы удалить, воспользуйтесь `service_remove.cmd`.
 
 [Обсуждение обхода замедления YouTube в России](https://github.com/ValdikSS/GoodbyeDPI/issues/378)
 
@@ -93,4 +93,3 @@ gateway.threads.net 157.240.200.3
 * [MTProxyStar.](https://t.me/MTProxyStar) Свежие прокси. Низкий пинг, работают стабильно.
 
 </details>
-
