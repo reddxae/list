@@ -19,7 +19,7 @@
 * <sup>`GTK`</sup> [Bottles.](https://flathub.org/ru/apps/com.usebottles.bottles) Организатор и менеджер для Wine.<sup>[`ℹ️`](https://habr.com/ru/companies/dcmiran/articles/693842/)</sup>
 
 ### 📦 Управление пакетами  
-Репозитории:  
+Репозитории:
 * [Flathub.](https://flathub.org/ru) Популярный репозиторий свободных и проприетарных программ в формате [Flatpak.](https://docs.flatpak.org/ru/latest/introduction.html#reasons-to-use-flatpak)
 * [Repology.](https://repology.org) Поиск огромного множества пакетов среди репозиториев Linux-дистрибутивов. Также поддерживается поиск в Winget, Chocolatey и scoop. [Полный список поддерживаемых репозиториев.](https://repology.org/repositories/statistics)  
 
