@@ -176,4 +176,4 @@ yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppBlog"]
 * [Geckium.](https://github.com/angelbruni/Geckium) CSS/JS тема для Firefox в стиле старых версий Chrome (~1.0-58).
 
 ### Прочие надстройки
-* [Bettefox.](https://github.com/yokoffing/Betterfox) Подборка твиков для Firefox, ориентированных на производительность.
+* [Betterfox.](https://github.com/yokoffing/Betterfox) Подборка твиков для Firefox, ориентированных на производительность.
