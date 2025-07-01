@@ -2,7 +2,7 @@
 
 ### Расширения
 
-* [uBlock Origin.](https://ublockorigin.com/ru) Самый популярный свободный блокировщик рекламы. В представлении не нуждается.  
+* [uBlock Origin.](https://ublockorigin.com/ru) Самый популярный свободный блокировщик рекламы. В представлении не нуждается.
 
 <details>
 
@@ -165,7 +165,7 @@ yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppBlog"]
 
 </details>
 
-* [БотНадзор для VK.](https://botnadzor.org/docs/extension) Подсвечивание комментариев от кремлеботов. 
+* [БотНадзор для VK.](https://botnadzor.org/docs/extension) Подсвечивание комментариев от кремлеботов.
 
 ### Темы
 

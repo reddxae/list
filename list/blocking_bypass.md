@@ -14,12 +14,12 @@ ___
 1. [Скачиваем последнюю версию GoodbyeDPI со страницы релизов.](https://github.com/ValdikSS/GoodbyeDPI/releases)
 2. Переносим папку в любую точку на диске, откуда впоследствии папку удалять не будем.
 3. Берём свежие листы:
-   * Под VPN, заходим по адресу [antizapret.prostovpn.org/domains-export.txt](https://antizapret.prostovpn.org/domains-export.txt) и сохраняем файл в раннее скачанную папку, с именем `russia-blacklist.txt`.
+   * Под VPN заходим по адресу [antizapret.prostovpn.org/domains-export.txt](https://antizapret.prostovpn.org/domains-export.txt) и сохраняем файл в ранее скачанную папку с именем `russia-blacklist.txt`.
 4. В зависимости от ваших предпочтений, от имени администратора запускаем:
    * `1_russia_blacklist.cmd`
    * `1_russia_blacklist_dnsredir.cmd` c перенаправлением DNS-резолвера на DNS Яндекса.
 
-Это установит сервис GoodbyeDPI в Windows, он будет запускаться автоматически вместе с системой. Чтобы удалить, воспользуйтесь `service_remove.cmd`.  
+Это установит сервис GoodbyeDPI в Windows, он будет запускаться автоматически вместе с системой. Чтобы удалить, воспользуйтесь `service_remove.cmd`.
 
 [Обсуждение обхода замедления YouTube в России](https://github.com/ValdikSS/GoodbyeDPI/issues/378)
 
@@ -93,4 +93,3 @@ gateway.threads.net 157.240.200.3
 * [MTProxyStar.](https://t.me/MTProxyStar) Свежие прокси. Низкий пинг, работают стабильно.
 
 </details>
-
