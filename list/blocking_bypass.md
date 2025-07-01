@@ -66,9 +66,9 @@ gateway.threads.net 157.240.200.3
 
 </details>
 
-Не рекомендуется использовать глобальный режим в DPI Tunnel на Android ввиду агрессивной реакции банковских приложений (например, Mir Pay автоматически стирает все карты и блокирует функционал). Вместо этого используйте прозрачный режим с выборочным туннелированием необходимых приложений.
+Не рекомендуется использовать глобальный режим в DPI Tunnel на Android ввиду агрессивной реакции банковских приложений (например, Mir Pay автоматически стирает все карты и блокирует все функции). Вместо этого используйте прозрачный режим с выборочным туннелированием необходимых приложений.
 
-* [ByeDPIAndroid.](https://github.com/dovecoteescapee/ByeDPIAndroid/) Не нужны root-права: обход DPI работает через функционал VPN, локально пропуская трафик через [ByeDPI.](https://github.com/hufrea/byedpi)
+* [ByeDPIAndroid.](https://github.com/dovecoteescapee/ByeDPIAndroid/) Не нужны root-права: обход DPI работает через VPN, локально пропуская трафик через [ByeDPI.](https://github.com/hufrea/byedpi)
 * [Плагин ByeDPI для NekoBox.](https://github.com/hufrea/byedpi-neko/releases)
 
 [Варианты для других платформ можно найти здесь.](https://github.com/ValdikSS/GoodbyeDPI#similar-projects)
