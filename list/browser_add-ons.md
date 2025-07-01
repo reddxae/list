@@ -37,28 +37,23 @@ aternos.org##.new.boost-cta-box
 /^ya\.ru|yandex/##.main__carousel:has([class*="AdvProductGallery"])
 ```
 
-* Реклама на странице погоды. Убирает современный вид страницы, возвращая сводку по дням
+* Реклама на странице погоды
 ```
-yandex.*##:matches-path(/pogoda) #content_right
-yandex.*##:matches-path(/pogoda) .blog-widget
-yandex.*##:matches-path(/pogoda) [role="main"] > :not(#content_left, [data-bem*="/pogoda"])
-yandex.*##:matches-path(/pogoda) .card:not(:has(.weather-table))
-yandex.*##:matches-path(/pogoda) [data-bem*="segment-details"] > :not(article)
-yandex.*##:matches-path(/pogoda) #__next > [data-overlay-container="true"] > div > div:has(main) > div
-yandex.*##:matches-path(/pogoda) #__next > [data-overlay-container="true"] main > div:not(:has(nav)) > div:not(:has(article, ul))
-yandex.*##:matches-path(/pogoda) #__next > [data-overlay-container="true"] main > div:not(:has(nav)) > div:has(ul) > div > div:not(:has(article, button))
-yandex.*##:matches-path(/pogoda) .pro-entry-points
-yandex.*##:matches-path(/pogoda) .header-b2b__menu-item
-yandex.*##:matches-path(/weather) #content_right
-yandex.*##:matches-path(/weather) .blog-widget
-yandex.*##:matches-path(/weather) [role="main"] > :not(#content_left, [data-bem*="/weather"])
-yandex.*##:matches-path(/weather) .card:not(:has(.weather-table))
-yandex.*##:matches-path(/weather) [data-bem*="segment-details"] > :not(article)
-yandex.*##:matches-path(/weather) #__next > [data-overlay-container="true"] > div > div:has(main) > div
-yandex.*##:matches-path(/weather) #__next > [data-overlay-container="true"] main > div:not(:has(nav)) > div:not(:has(article, ul))
-yandex.*##:matches-path(/weather) #__next > [data-overlay-container="true"] main > div:not(:has(nav)) > div:has(ul) > div > div:not(:has(article, button))
-yandex.*##:matches-path(/weather) .pro-entry-points
-yandex.*##:matches-path(/weather) .header-b2b__menu-item
+yandex.*##:matches-path(/\/(weather|pogoda)\//) #content_right
+yandex.*##:matches-path(/\/(weather|pogoda)\//) .blog-widget
+yandex.*##:matches-path(/\/(weather|pogoda)\//) [role="main"] > :not(#content_left, [data-bem*="/weather"])
+yandex.*##:matches-path(/\/(weather|pogoda)\//) [role="main"] > :not(#content_left, [data-bem*="/pogoda"])
+yandex.*##:matches-path(/\/(weather|pogoda)\//) .card:not(:has(.weather-table))
+yandex.*##:matches-path(/\/(weather|pogoda)\//) [data-bem*="segment-details"] > :not(article)
+yandex.*##:matches-path(/\/(weather|pogoda)\//) #__next > [data-overlay-container="true"] > div > div:has(main) > div
+yandex.*##:matches-path(/\/(weather|pogoda)\//) #__next > [data-overlay-container="true"] main > div:not(:has(nav)) > div:not(:has(article, ul))
+yandex.*##:matches-path(/\/(weather|pogoda)\//) #__next > [data-overlay-container="true"] main > div:not(:has(nav)) > div:has(ul) > div > div:not(:has(article, button))
+yandex.*##:matches-path(/\/(weather|pogoda)\//) .pro-entry-points
+yandex.*##:matches-path(/\/(weather|pogoda)\//) .header-b2b__menu-item
+yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="Money_wrap"]
+yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppPromo"]
+yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="RateMe"]
+yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppBlog"]
 ```
 
 * Кнопка вызова Алисы
