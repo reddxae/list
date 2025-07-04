@@ -192,7 +192,7 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * <sup>`(Android 12 и ниже)`</sup>[Clipboard Cleaner.](https://f-droid.org/ru/packages/io.github.deweyreed.clipboardcleaner/) Выводит уведомления об операциях приложений/пользователя с буфером обмена, и тоггл в шторку для его очистки.
 * [Memory Guardian.](https://apt.izzysoft.de/fdroid/index/apk/ara.memoryguardian) Настройка автоочистки буфера обмена.
 
-## Shizuku
+### Shizuku
 * [Shizuku.](https://shizuku.rikka.app/) Предоставление повышенных прав приложениям через adb с использованием локального сервера.  
 Все приложения ниже поддерживают работу на устройствах без root-прав!  
 [Автоматический запуск Shizuku после перезагрузки через Automate](https://llamalab.com/automate/community/flows/44848) и [как поставить.](https://www.reddit.com/r/Android/comments/128eak8/comment/jescmhz/?utm_source=share&utm_medium=web2x&context=3)
@@ -201,7 +201,23 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 
 Рекомендую заглянуть в [Awesome Shizuku.](https://github.com/ThePBone/awesome-shizuku) Это обновляемый список приложений, поддерживающих работу через локальный adb.
 
-## Модули для Magisk
+### Команды и утилиты ADB
+* Установить кастомную скорость анимаций через adb shell:
+  * `settings put global window_animation_scale 0.XX`
+  * `settings put global transition_animation_scale 0.XX`
+  * `settings put global animator_duration_scale 0.XX`
+* Принудительный запуск оптимизации приложений (бывает полезно в случаях, если сделали клинфлеш с последующей установкой большого количества приложений/обновили версию Android с сохранением данных):
+  1. Если у вас есть root-права: запускаем в Терминале команду `su -c "cmd package bg-dexopt-job"` и ожидаем окончания процесса (будет выведена строка Success).
+  2. Если root-прав нет, выполняем `cmd package bg-dexopt-job` через Shizuku или классический `adb shell`.
+  3. Предкомпиляция байт-кода, принудительное пересоздание уже созданного ранее системой кэша: `pm compile -a -f -m everything; cmd package bg-dexopt-job` (рекомендуется).
+* Разблокировать смену языка для всех приложений на Android 13+ (может не поддерживаться приложением, в таком случае смена языка не окажет никакого эффекта):
+  `settings put global settings_app_locale_opt_in_enabled false`
+
+Оптимизация отдельного приложения производится командой `cmd package compile --reset <имя_пакета>`.
+* [scrspy.](https://github.com/Genymobile/scrcpy) Универсальное решение для захвата экрана, звука или видео с Android-устройства через прямое подключение по USB или Wi-Fi.
+* Легковесный [ADB Debloater](https://github.com/SunsetTechuila/ADB-Debloater) с оптимальным набором пакетов для всех устройств или более функциональный [Universal Android Debloater](https://github.com/0x192/universal-android-debloater) с большим числом пакетов для прошивок китайских вендоров.
+
+## 🎭 Модули для Magisk/KernelSU
 * [Net Switch.](https://github.com/Rem01Gaming/net-switch) Простой фаервол на iptables для ограничения доступа в интернет конкретным приложениям.
 * [Hide My Applist.](https://github.com/Dr-TSNG/Hide-My-Applist) Скрытие отдельных приложений.
 * [Call Recording](https://modules.lsposed.org/module/io.github.vvb2060.callrecording/) для Google Телефона. Простой модуль без интерфейса, который убирает региональные ограничения на доступ к самой функции записи вызовов и убирает предупреждение о начале записи (обратите внимание: предупреждение перестанет воспроизводиться только после совершения первого звонка с записью вызовов, т.е. при активации записи в первый раз, предупреждение будет озвучено на линии собеседнику, а уже следующие разы будут без предупреждения. Чтобы обойти это, включите автоматическую запись вызовов в настройках и подтвердите согласие на отказ от ответственности во всплывающем окне. Затем фукнцию можно отключить и пользоваться только ручной активацией).
@@ -257,22 +273,6 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * <sup>`(Модуль / Android 11+)`</sup> [Модуль, отключающий эффект приближения обоев на рабочем столе при разблокировке устройства и открытии/сворачивании приложения.](https://github.com/reddxae/list/blob/files/wall_zoom_anim_disabler.zip)
 * <sup>`(LSPosed / Android 12+)`</sup> [Модуль, отключающий анимацию "волны" при разблокировке устройства.](https://github.com/reddxae/list/blob/files/disable_ripple_on_unlock.apk) Полезно, если у вас она систематически подтормаживает.
 * <sup>`(Модуль)`</sup> [Всякая хрень для статус-бара.](https://www.pling.com/p/1488365/) Может пригодиться, если, например, вы используете набор иконок Circular или Outline, и вам не нравится сильно бросающийся в глаза жирный шрифт у значка LTE. Тогда можно заменить его на иконку 4G или LTE+ в стиле Android 11.
-
-## Полезное
-* Установить кастомную скорость анимаций через adb shell:
-  * `settings put global window_animation_scale 0.XX`
-  * `settings put global transition_animation_scale 0.XX`
-  * `settings put global animator_duration_scale 0.XX`
-* Принудительный запуск оптимизации приложений (бывает полезно в случаях, если сделали клинфлеш с последующей установкой большого количества приложений/обновили версию Android с сохранением данных):
-  1. Если у вас есть root-права: запускаем в Терминале команду `su -c "cmd package bg-dexopt-job"` и ожидаем окончания процесса (будет выведена строка Success).
-  2. Если root-прав нет, выполняем `cmd package bg-dexopt-job` через Shizuku или классический `adb shell`.
-  3. Предкомпиляция байт-кода, принудительное пересоздание уже созданного ранее системой кэша: `pm compile -a -f -m everything; cmd package bg-dexopt-job` (рекомендуется).
-* Разблокировать смену языка для всех приложений на Android 13+ (может не поддерживаться приложением, в таком случае смена языка не окажет никакого эффекта):
-  `settings put global settings_app_locale_opt_in_enabled false`
-
-Оптимизация отдельного приложения производится командой `cmd package compile --reset <имя_пакета>`.
-* [scrspy.](https://github.com/Genymobile/scrcpy) Универсальное решение для захвата экрана, звука или видео с Android-устройства через прямое подключение по USB или Wi-Fi.
-* Легковесный [ADB Debloater](https://github.com/SunsetTechuila/ADB-Debloater) с оптимальным набором пакетов для всех устройств или более функциональный [Universal Android Debloater](https://github.com/0x192/universal-android-debloater) с большим числом пакетов для прошивок китайских вендоров.
 
 ## 📚 Подборки софта
 * [Большой список исключительно свободного софта для Android (некоторые приложения могут быть устаревшими)](https://github.com/offa/android-foss)
