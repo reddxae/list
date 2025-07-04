@@ -67,7 +67,7 @@
 * [Thunderbird (ранее назывался K-9 Mail).](https://github.com/thunderbird/thunderbird-android) Лёгкий почтовый клиент без рекламы. Не поддерживает FCM (облачные сообщения), то есть все письма будут приходить на устройство только после запланированной или ручной проверки ящиков.
 
 ## 🖼 Фотографии
-* [ReVanced Google Photos.](https://github.com/j-hc/revanced-magisk-module/releases) Предоставляет безлимитный бэкап медиа в Google Фото путём подмены определяемого устройства на Pixel XL. Среди файлов находим `Google Photos`, есть варианты в виде модуля для устройств с root-правами и обычного приложения (для последнего требуется [ReVanced GmsCore](https://github.com/ReVanced/GmsCore)).
+* [ReVanced Google Photos.](https://github.com/j-hc/revanced-magisk-module/releases) Предоставляет безлимитный бэкап медиа в Google Фото путём подмены определяемого устройства на Pixel XL. Среди файлов находим `Google Photos`, есть варианты в виде модуля для устройств с root-правами, и обычного приложения (для последнего требуется [ReVanced GmsCore](https://github.com/ReVanced/GmsCore)).
 * [Aves.](https://github.com/deckerst/aves) Свободная, красивая и функциональная галерея. Поддерживает огромное количество форматов фото/видео, расширенный поиск по медиатеке, сортировку по различным критериям.
 * [Snapseed.](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) Редактирование фотографий с небольшим уклоном в профессиональную обработку. Нечто большее, чем тупой кроп и банальные фильтры.
 * [Photok.](https://f-droid.org/packages/dev.leonlatsch.photok/) Хранение фотографий на устройстве под кодовой защитой с применением шифрования.
