@@ -1,132 +1,129 @@
 # 🤖 Android
 
-## Приложения:
-### 📹 Стриминговый контент и социальные сети
+## 📹 Стриминговый контент
 * [ReVanced для YouTube.](https://github.com/j-hc/revanced-magisk-module/releases) Идейное продолжение Vanced — модификации, предоставляющей блокировку рекламы, фоновое воспроизведение видео, режим Картинка-в-картинке и другие полезные функции, официально предоставляемые только за плату или вовсе недоступные в официальном клиенте. По ссылке предоставлены готовые сборки в виде модулей и non-root версий (для последних требуется [ReVanced GmsCore](https://github.com/ReVanced/GmsCore)).
   * Рекомендую использовать сборки ReVanced Extended на основе патчей от [inotia00.](https://github.com/inotia00/revanced-patches) Они содержат больше функций.<sup>[`ℹ️`](https://github.com/inotia00/revanced-patches?tab=readme-ov-file#-comgoogleandroidyoutube)</sup> Публикуются на указанной выше странице релизов с пометкой "YouTube-Extended".
 * [PurpleTV для Twitch.](https://t.me/pubTw) Модификация на основе официального клиента (ранее называлась TwitchMod). Позволяет скрывать или перемещать элементы интерфейса, можно обходить блокировки в чатах (писать нельзя, но доступен просмотр). Для чатов также доступны кастомные смайлики (BTTV и подобные). Встроен VODHunter и другие функции.
-* [Piko для X.](https://github.com/crimera/twitter-apk) Это сторонние revanced-патчи<sup>[`ℹ️`](https://github.com/crimera/piko#%EF%B8%8F-patch-details)</sup> для официального клиента X (Twitter). Содержат базовые функции, присущие модификациям: скрытие рекламы, изменение порядка или скрытие элементов в интерфейсе, и другое. Также разблокирована загрузка видео. По ссылке предоставлены готовые сборки пропатченного клиента.
 * [Взломанная версия приватного мода от TikTokModCloud.](https://t.me/tiktalkupdate) Ранее это был отдельный мод от Jaggu со схожей функциональностью, но времена меняются. Мод всё так же позволяет выкладывать фото/видео без VPN, менять по необходимости регион (лучше оставить США/Беларусь), да и в целом работа клиента неотличимо стабильна от оригинала. Замечу, что автору канала очень свойственно пропасть на полгода без поддержки клиента, поэтому если вам важна актуальность версии приложения и методов обхода, лучше [приобрести мод](https://t.me/TikTokMod_Bot) у его разработчика.
   * Может, пригодится: [здесь](https://t.me/tiktokmodcloud_apk) также публикуется и бесплатная версия мода от TikTokModCloud, без убогих рефералок и прочих трудностей с загрузкой. В этих версиях публикация медиа работает не у всех, а также присутствуют рекламные баннеры.
 
 > [!TIP]
-> Можно подменить код региона SIM-карты в системе, что позволит использовать официальную версию TikTok прямо из Google Play со всеми функциями, включая публикацию контента. Сделать это можно с помощью [модуля](https://github.com/reddxae/list/blob/files/iso-code-changer.zip) (по умолчанию указана Беларусь) или [через Shamiko,](https://github.com/nullbytepl/CarrierVanityName) если у вас нет рут-прав.
+> Можно подменить код региона SIM-карты в системе, что позволит использовать официальную версию TikTok прямо из Google Play со всеми функциями, включая публикацию контента. Сделать это можно с помощью [модуля](https://github.com/reddxae/list/blob/files/iso-code-changer.zip) (по умолчанию указана Беларусь) или [через Shamiko,](https://github.com/nullbytepl/CarrierVanityName) если у вас нет root-прав.
+* [Anixart.](https://t.me/seele_channel) Удобный агрегатор аниме на мобильных устройствах. Рекомендую использовать [мод от разработчика Seele](https://t.me/s/seele_channel?q=Anixart), в котором вырезана реклама и региональные ограничения.
+* [ShikiWatch.](https://github.com/wheremyfiji/ShikiWatch) Неофициальное приложение для Shikimori.
 
-Ах, ВКонтакте... вы и сами всё про него знаете. Тем не менее, наверняка по тем или иным причинам кто-нибудь его все ещё использует (надеюсь, только из вынужденных обстоятельств 🙏):
-* [VTLite.](https://github.com/vtosters/lite) Классический клиент на основе старой базы с открытым исходным кодом.
-* [SOVA V RE.](https://t.me/sovaV) На момент мая 2025 последнее обновление клиента было больше года назад [(1 апреля 2024),](https://t.me/sovaV/354) сейчас в клиенте не работают push-уведомления через FCM<sup>[`ℹ️`](https://firebase.google.com/docs/cloud-messaging)</sup>, а также недоступно подавляющее большинство реакций в сообщениях.
+## 💬 Социальные сети и мессенджеры
 
-### 💬 Мессенджеры
-
+### Telegram:
 > [!IMPORTANT]
-> Так уж повелось в среде разработки сторонних Telegram-клиентов, что подавляющее большинство среди них крайне редко обновляют свой исходный код, а некоторые и вовсе поставляются с закрытым. Поэтому я ввёл ~~рівень потужності~~ условные обозначения для клиентов, использовать которые можно только на свой страх и риск, ведь это приложения, имеющие доступ ко всем вашим личным перепискам.  
+> Так уж повелось в среде разработки сторонних Telegram-клиентов, что подавляющее большинство среди них крайне редко обновляют свой исходный код, а некоторые и вовсе поставляются с закрытым. Поэтому я ввёл ~~рівень потужності~~ условные обозначения для клиентов, использовать которые следует только на свой страх и риск — ведь это приложения, имеющие доступ ко всем вашим личным перепискам.  
 > ⚠️ — клиент не обновляет исходный код и его сборки невозможно воспроизвести.  
 > ❗ — клиент нарушает ToS (Условия использования). Будьте осторожны, существует риск блокировки аккаунта.
 
-Telegram:
-* [Nekogram.](https://t.me/NekoUpdates) Классический кастомный клиент Telegram с базовым набором функций и открытым исходным кодом. Недавно (в кои-то веки!) добавили опцию, отключающую воспроизведение медиа на экране по нажатию клавиш громкости.
-* [⚠️ exteraGram.](https://t.me/exteraGramCI) Клиент с качественным интерфейсом и грамотной Monet-покраской. По функциональности, есть отключение Premium-анимаций/стикеров/оформления профиля, оформления сообщений, статусов, аватаров и т.п., скрытие нижней панели в каналах, скрытие меню "Отправить от имени канала" (с сохранением его функциональности), сворачивание клавиатуры при прокрутке чата, бесконечные недавние стикеры, новое сжатие отправляемых фото (2560px), отключение воспроизведения медиа на экране по нажатию клавиш громкости и некоторые другие эксклюзивные функции, такие как AI Chat, адблок для встроенного браузера, использование Яндекс Карт вместо Google и другое.
+* [Nekogram.](https://t.me/NekoUpdates) Классический кастомный клиент Telegram с базовым набором функций и открытым исходным кодом. 
+* [⚠️ exteraGram.](https://t.me/exteraGramCI) Клиент с качественным интерфейсом и грамотной Monet-покраской. По функциональности, есть отключение Premium-анимаций/стикеров/оформления профиля, оформления сообщений, статусов, аватаров и т.п., скрытие нижней панели в каналах, скрытие меню "Отправить от имени канала" (с сохранением его функциональности), сворачивание клавиатуры при прокрутке чата, бесконечные недавние стикеры, отключение воспроизведения медиа на экране по нажатию клавиш громкости и некоторые другие эксклюзивные функции, такие как система плагинов, AI Chat, адблок для встроенного браузера, использование Яндекс Карт вместо Google и другое.
   * [⚠️❗ AyuGram.](https://t.me/ayugramchat) Клиент на основе exteraGram, содержащий в себе функции режима "невидимки", сохранения удалённых сообщений, сохранение истории редактирования сообщений, пересылка и скриншоты в каналах, где это запрещено настройками приватности. Помимо этого, в клиенте полностью отсутствует реклама даже без подписки Telegram Premium.
-* [❗ Nagram X.](https://github.com/risin42/NagramX) Открытый клиент, совмещающий в себе функции из обычного [Nekogram](https://github.com/reddxae/list/blob/main/list/android.md#:~:text=Nekogram), [NekogramX](https://t.me/NekogramX), [Nagram](https://t.me/nagram_channel) и ToS-breaking функции из [AyuGram.](https://github.com/reddxae/list/blob/main/list/android.md#:~:text=AyuGram)
+* [❗ Nagram X.](https://github.com/risin42/NagramX) Открытый клиент, совмещающий в себе функции из обычного [Nekogram](https://github.com/reddxae/list/blob/main/list/android.md#:~:text=Nekogram), [Nekogram X](https://t.me/NekogramX), [Nagram](https://t.me/nagram_channel) и ToS-breaking функции из [AyuGram.](https://github.com/reddxae/list/blob/main/list/android.md#:~:text=AyuGram)
 * [⚠️ Plus Messenger.](https://t.me/PlusMessengerUpdates) Идейный собрат ныне покойного [⚠️ BGram.](https://t.me/BGramChannel) Содержит огромное количество функций и широкую кастомизацию.
 
-<sup>`(Требуются root-права и LSPosed)`</sup> [Killergram Neo.](https://github.com/AetherMagee/KillergramNeo/tags) Модуль для клиентов Telegram на основе официального. Опционально позволяет заменить стоковые иконки интерфейса в приложении на Solar, скрыть истории, отключить автовоспроизведение медиа по кнопке громкости, удалить рекламу из каналов, разрешить пересылку из защищенных каналов, снять лимит на количество аккаунтов в приложении, форсировать использование системных шрифтов.
+<sup>`(Требуются root-права и LSPosed)`</sup> [Killergram Neo.](https://github.com/AetherMagee/KillergramNeo/tags) Модуль для клиентов Telegram на основе официального. Позволяет заменить стиль иконок интерфейса на [Solar](https://icones.js.org/collection/solar), скрыть истории из топбара, отключить автовоспроизведение медиа по нажатию на кнопку громкости, убрать рекламу из каналов, делать скриншоты, сохранять медиа и копировать текст из защищенных чатов, снять лимит на количество аккаунтов в приложении и форсировать использование системных шрифтов.
 
-Matrix:
-* [Element для Matrix.](https://element.io/download) Самый функциональный и стабильный кроссплатформенный клиент.
-* [Fluffy Chat.](https://github.com/krille-chan/fluffychat) Работает так себе, но в нём достаточно функций, чтобы им можно было заменить Element, если тот по каким-то причинам не нравится.
-* [Element X.](https://github.com/element-hq/element-x-android) Красивый и быстрый клиент, но очень скупой на функциональность. Подойдет только для самой базовой переписки.
+### X (Twitter):
+* [Готовые сборки X с патчами Piko.](https://github.com/crimera/twitter-apk) Это сторонние revanced-патчи<sup>[`ℹ️`](https://github.com/crimera/piko#%EF%B8%8F-patch-details)</sup> исключительно для Twitter, которые привносят базовые функции, присущие подобным модификациям: локальный премиум, скрытие рекламы, изменение порядка или скрытие элементов в интерфейсе, настройки для встроенного переводчика и другое. Также разблокирована нативная загрузка видео в клеинте.
 
-### ⌛️ Блокировка рекламы
-* [AdAway.](https://github.com/AdAway/AdAway) Блокировка рекламы через локальные hosts-файлы. Может работать в режиме VPN (т.е. root-доступ необязателен; с root рекомендуется использовать в паре с [bindhosts](https://github.com/bindhosts/bindhosts)). Готовые списки можно взять [здесь.](https://4pda.to/forum/index.php?showtopic=275091&st=8000#entry89665467)
-> Лучше добавить в разрешённые листы `firebase-settings.crashlytics.com`, `firebaseremoteconfig.googleapis.com` и *(опционально)* `firebaselogging.googleapis.com`. Эти адреса должны быть разблокированы для корректной работы некоторых приложений, завязанных на сервисах Google.
+### Matrix:
+* [Element для Matrix.](https://element.io/download) Самый функциональный и стабильный кроссплатформенный клиент из доступных. Возможно, это вообще единственный клиент, что всеобъемлюще задействует доступные возможности платформы.
+* [Fluffy Chat.](https://github.com/krille-chan/fluffychat) Работает так себе, но в нём достаточно функций, чтобы им можно было заменить Element, если последний не нравится.
+* [Element X.](https://github.com/element-hq/element-x-android) Красивый клиент, но очень скупой на функциональность. Подойдёт только для самой базовой переписки с заранее добавленными собеседниками.
 
-### 🎧 Аудио и стриминг музыки
-Стриминговые сервисы:
-* [XManager для Spotify.](https://t.me/xManagerUpdates) Подойдёт как для не-Premium, так и для Premium-аккаунтов. В случае с первыми, мод отключает всю аудио/визуальную рекламу, оставляя лишь серверные ограничения на качество воспроизводимого аудио и необходимость в ре-логине каждые 2 недели (если вы не находитесь в регионе, установленном в вашем аккаунте). Для обоих типов пользователей будет полезна активация экспериментальных функций (значок колбочки сверху в менеджере), зачастую среди них много полезного.
-* [Взломанная Яндекс Музыка.](https://github.com/slavrom21/YMReleases)
-* [VK X.](https://t.me/vkxci)
+### VK:
+Ах, ВКонтакте... вы и сами всё про него знаете. Тем не менее, наверняка по тем или иным причинам кто-нибудь его все ещё использует (надеюсь, только из вынужденных обстоятельств 🙏):
+* [VTLite.](https://github.com/vtosters/lite) Классический клиент на основе старой базы с открытым исходным кодом.
+* [SOVA V RE.](https://t.me/sovaV) На момент мая 2025 последнее обновление клиента было больше года назад [(1 апреля 2024)](https://t.me/sovaV/354), сейчас в клиенте не работают push-уведомления через FCM<sup>[`ℹ️`](https://firebase.google.com/docs/cloud-messaging)</sup>, а также недоступно большинство реакций в сообщениях.
 
-Локальное аудио:
-* [Auxio.](https://github.com/OxygenCobalt/Auxio) Плеер локальной музыки.
-* [Wavelet.](https://pittvandewitt.github.io/Wavelet/) Скромный эквалайзер с базовыми настройками и поддержкой конфигов AutoEQ. Не требует root-прав или Shizuku и работает с большинством популярных плееров, включая Spotify. [Взломанные версии здесь.](https://4pda.to/forum/index.php?showtopic=994106)
-* <sup>`(Shizuku)`</sup> [RootlessJamesDSP.](https://github.com/ThePBone/RootlessJamesDSP) Эквалайзер с большим количеством настроек.
+## 🎧 Музыка и эквалайзеры
 
-### 📪 Почта
-* [Thunderbird или K-9 Mail](https://github.com/thunderbird/thunderbird-android) (сейчас это один и тот же клиент).
+### Spotify:
+* [XManager для Spotify.](https://t.me/xManagerUpdates) Подойдёт как для бесплатных, так и для Premium-аккаунтов. Мод убирает всю аудио/визуальную рекламу, оставляя лишь серверные (неустранимые) ограничения на битрейт (качество) аудио и необходимость в ре-логине каждые 2 недели если вы находитесь в регионе, отличном от региона аккаунта. Опционально доступна активация экспериментальных функций, среди которых изредка встречаются полезные.
+* [Взломанная Яндекс Музыка.](https://github.com/slavrom21/YMReleases) Активирована подписка Плюс (что подразумевает максимальное качество прослушивания), отключена аналитика и добавлена Monet-тема для поддерживаемых устройств.
+* [VK X.](https://t.me/vkxci) Плеер для VK Музыки с качественным интерфейсом и широким функционалом. Без рекламы.
 
-### 🛡 Аутентификация и пароли
-* 2FA-аутентификация: [Authenticator Pro](https://apt.izzysoft.de/fdroid/index/apk/me.jmh.authenticatorpro) или [Aegis.](https://github.com/beemdevelopment/Aegis)
-* [Keyguard.](https://github.com/AChep/keyguard-app) Частично-свободный, удобный клиент для Bitwarden.
-* [KeePassDX.](https://github.com/Kunzisoft/KeePassDX) Локальное хранение паролей в зашифрованном виде с унифицированным форматом дата-баз KeePass.
+### Локальное прослушивание:
+* [Auxio.](https://github.com/OxygenCobalt/Auxio) Очень простой плеер для локальной музыки. 
+* [Wavelet.](https://pittvandewitt.github.io/Wavelet/) Скромный эквалайзер с базовыми опциями и поддержкой конфигов AutoEQ. Не требует root-прав или Shizuku и работает с большинством популярных плееров, включая официальные сборки Spotify. [Взломанные версии здесь.](https://4pda.to/forum/index.php?showtopic=994106)
+* <sup>`(Требуется Shizuku)`</sup> [RootlessJamesDSP.](https://github.com/ThePBone/RootlessJamesDSP) Эквалайзер с большим количеством настроек.
+* <sup>`(Требуются root-права)`</sup> [ViPER4Android Repackaged.](https://github.com/programminghoch10/ViPER4AndroidRepackaged)
+  * [ViperFX RE (Material Design 3)](https://github.com/WSTxda/ViperFX-RE-Releases) Дополнительно нужен [драйвер.](https://github.com/WSTxda/ViPERFX_RE/releases)
+* <sup>`(Требуются root-права)`</sup> [JamesDSPManager.](https://github.com/Zackptg5/JamesDSPManager/blob/master/install.zip) Актуальный установщик root-версии JamesDSP (при установке рекомендую выбирать интерфейс от [ThePBone](https://github.com/timschneeb)). Дальнейшие обновления приходят автоматически в приложении.
 
-### 🖼 Фотографии
-* [ReVanced Google Photos.](https://github.com/j-hc/revanced-magisk-module/releases) Безлимитный бэкап медиа в Google Фото без root-прав (работает по той же логике, что и с помощью модулей — спуф устройства под Pixel XL). Среди файлов находим Google Photos, предоставлены варианты в виде модуля и приложения (для последнего требуется [ReVanced GmsCore](https://github.com/ReVanced/GmsCore)).
-* [Aves.](https://github.com/deckerst/aves) Свободная, красивая и функциональная галерея. Поддерживает огромное количество форматов фото/видео, расширенный поиск по медиатеке, сортировку по различным критериям и другие функции.
-* [Snapseed.](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) Редактирование фотографий с небольшим уклоном в профессиональную обработку. Нечто большее, чем тупой кроп или стрёмные фильтры.
-* [Photok.](https://f-droid.org/packages/dev.leonlatsch.photok/) Хранение фотографий на устройстве под кодовой защитой с применением шифрования.
-
-### 🌐 Браузеры
-* [Edge.](https://play.google.com/store/apps/details?id=com.microsoft.emmx) Да, внезапно самый сбалансированный браузер на сегодня. Имеет хоть и ограниченную, но достаточную поддержку расширений для большинства пользователей (доступен uBlock Origin с некоторыми махинациями: для приложения нужно установить китайский язык, тогда оно станет доступным для загрузки и останется после возвращения языка. Чтобы не переключать весь интерфейс системы на китайский, а поменять его только для Edge, читайте здесь), Dark Reader, Tampermonkey, SponsorBlock и другие), интерфейс постепенно становится удобнее. Основан на Chromium.
-* [Iceraven.](https://github.com/fork-maintainers/iceraven-browser) Форк Firefox на GeckoView с нормальной поддержкой расширений, чуть более широкой кастомизацией и доступом к флагам (about:config).
-* 🪦 <sup>`(разработка прекращена)`</sup> [Kiwi Browser.](https://github.com/kiwibrowser/src.next/releases/tag/12867802748) Поддерживает [десктопные расширения](https://github.com/reddxae/list/blob/main/list/browser_add-ons.md) для Chrome и ещё [несколько полезных функций.](https://kiwibrowser.com/features/)
+## 🌐 Браузеры
+* [Edge.](https://play.google.com/store/apps/details?id=com.microsoft.emmx) Да, внезапно самый сбалансированный браузер на сегодня. Имеет хоть и ограниченную, но достаточную поддержку расширений для большинства пользователей (Dark Reader, Tampermonkey, SponsorBlock и другие), интерфейс постепенно становится удобнее. Основан на Chromium.
+> Можно установить uBlock Origin (не Lite) с некоторыми махинациями: для приложения нужно установить китайский язык, тогда расширение станет доступным для загрузки и останется после возвращения языка. Чтобы не переключать весь интерфейс системы на китайский, а поменять его только для Edge, воспользуйтесь [этой командой.](https://github.com/reddxae/list/blob/main/list/android.md#:~:text=Разблокировать%20смену%20языка%20для%20всех%20приложений%20на%20Android%2013%2B)
+* [Iceraven.](https://github.com/fork-maintainers/iceraven-browser) Форк Firefox на GeckoView с нормальной поддержкой расширений, чуть более широкой кастомизацией и доступом к флагам (`about:config`).
+* 🪦 <sup>`(Разработка прекращена)`</sup> [Kiwi Browser.](https://github.com/kiwibrowser/src.next/releases/tag/12867802748) Поддерживает [десктопные расширения](https://github.com/reddxae/list/blob/main/list/browser_add-ons.md) для Chrome и ещё [несколько полезных функций.](https://kiwibrowser.com/features)
 * [Cromite.](https://github.com/uazo/cromite) Форк Bromite [с большим количеством функций.](https://github.com/uazo/cromite#features)
 
-### ☀️ Погода
-* [Breezy Weather.](https://github.com/breezy-weather/breezy-weather) Обновляемый форк [Geomertic Weather,](https://github.com/WangDaYeeeeee/GeometricWeather) выросший в отдельный проект. Гибко настраиваемое приложение с прогнозами погоды. Сделано качественно, имеет хороший дизайн и отзывчивый интерфейс, поддерживает множество источников информации.
-* <sup>`(Android 14+)`</sup> [Погода Pixel.](https://www.apkmirror.com/apk/google-inc/pixel-weather/) Прогноз погоды от Google.
+## 📪 Почтовые клиенты
+* [Thunderbird (ранее назывался K-9 Mail).](https://github.com/thunderbird/thunderbird-android) Лёгкий почтовый клиент без рекламы. Не поддерживает FCM (облачные сообщения), то есть все письма будут приходить на устройство только после запланированной или ручной проверки ящиков.
 
-### 🔍 Поиск
-* [Поиск Pixel.](https://4pda.to/forum/index.php?showtopic=1095929) Поиск в интернете и на устройстве, как в Pixel Launcher (начиная с Android 13 QPR1+). [Рекомендую мой русифицированный мод.](https://4pda.to/forum/index.php?showtopic=1095929&view=findpost&p=132797216)
-* [MiCTS.](https://github.com/parallelcc/MiCTS/blob/main/README_en.md) Активация функции "Обвести для поиска" от Google на любых устройствах.
-* [SauceNAO.](https://f-droid.org/ru/packages/com.luk.saucenao/) Android-клиент [одноимённого сервиса](https://saucenao.com/) для реверсивного поиска изображений.
+## 🖼 Фотографии
+* [ReVanced Google Photos.](https://github.com/j-hc/revanced-magisk-module/releases) Предоставляет безлимитный бэкап медиа в Google Фото путём подмены определяемого устройства на Pixel XL. Среди файлов находим `Google Photos`, есть варианты в виде модуля для устройств с root-правами и обычного приложения (для последнего требуется [ReVanced GmsCore](https://github.com/ReVanced/GmsCore)).
+* [Aves.](https://github.com/deckerst/aves) Свободная, красивая и функциональная галерея. Поддерживает огромное количество форматов фото/видео, расширенный поиск по медиатеке, сортировку по различным критериям.
+* [Snapseed.](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) Редактирование фотографий с небольшим уклоном в профессиональную обработку. Нечто большее, чем тупой кроп и банальные фильтры.
+* [Photok.](https://f-droid.org/packages/dev.leonlatsch.photok/) Хранение фотографий на устройстве под кодовой защитой с применением шифрования.
 
-### 📁 Файловые менеджеры
-* [Material Files.](https://f-droid.org/ru/packages/me.zhanghai.android.files/) Свободная альтернатива Google Files с расширенной функциональностью. Поддерживает работу с FTP.
+## ☀️ Погода
+* [Breezy Weather.](https://github.com/breezy-weather/breezy-weather) Обновляемый форк [Geomertic Weather](https://github.com/WangDaYeeeeee/GeometricWeather), выросший в отдельный проект. Гибко настраиваемое приложение с прогнозами погоды. Сделано качественно, имеет хороший дизайн и отзывчивый интерфейс, поддерживает множество источников.
+* <sup>`(Android 14+)`</sup> [Погода Pixel.](https://www.apkmirror.com/apk/google-inc/pixel-weather) Клиент метеорологического сервиса от Google.
+> Если вам нравится [погода от Яндекса](https://yandex.ru/pogoda), но не нравится обилие рекламы, её можно отключить, пройдя в раздел "О приложении" в настройках и включив пункт "Не показывать рекламу". А ещё есть приложение [Meteum](https://play.google.com/store/apps/details?id=ai.meteum&hl=ru) — тот же сервис Яндекса для иностранного рынка. В нём нет никакой рекламы по умолчанию, но отсутствует русская локализация.
 
-### 🤖 Эмуляция
+## 🔍 Поиск
+* [Поиск Pixel.](https://4pda.to/forum/index.php?showtopic=1095929) Поиск в интернете и на устройстве, как в Pixel Launcher (начиная с Android 13 QPR1+). [Рекомендую мой русифицированный мод.](https://4pda.to/forum/index.php?showtopic=1095929&view=findpost&p=132797216) Для работы приложения в системе должен быть установлен почтовый клиент.
+* [MiCTS.](https://github.com/parallelcc/MiCTS/blob/main/README_en.md) Активация функции ["Обвести для поиска"](https://support.google.com/android/answer/14508957?hl=ru) от Google на любых устройствах.
+
+## 🛡 Пароли и аутентификация
+* [Keyguard.](https://github.com/AChep/keyguard-app) Частично-свободный удобный клиент для Bitwarden (есть премиум-функции для платной версии в Play Store, но доступна и бесплатная версия с открытым исходным кодом).
+* [KeePassDX.](https://github.com/Kunzisoft/KeePassDX) Локальное хранение паролей в зашифрованном виде с унифицированным форматом датабаз KeePass.
+* [Aegis.](https://github.com/beemdevelopment/Aegis) Стабильный менеджер одноразовых кодов.
+
+## 📁 Файлы на устройстве
+* [Material Files.](https://f-droid.org/ru/packages/me.zhanghai.android.files/) Свободная альтернатива Google Files для базовой работы с файлами. Поддерживает работу с FTP.
+* [MiXplorer.](https://mixplorer.com) Файловый менеджер с огромной функциональностью, поддерживает различные форматы файлов (напр. EPUB, PDF) и десятки форматов архивов на распаковку/сжатие, подключение к облачным хранилищам, работа FTP, SFTP, кастомный драйвер для OTG (чтение и запись exFAT и FAT32; чтение NTFS) и многое другое.
+
+## 🤖 Эмуляция
 * [Winlator.](https://github.com/brunodev85/winlator) Запуск классических x86_64 Windows-программ через Wine и Box86/Box64.
 
-### 🏃 Продуктивность
-* [HabitKit.](https://play.google.com/store/apps/details?id=com.roehl.habitkit&hl=en_US) Индивидуальный журнал-трекер вашей продуктивности.
+## 🏃 Продуктивность
+* [HabitKit.](https://play.google.com/store/apps/details?id=com.roehl.habitkit) Универсальный журнал-трекер вашей продуктивности. Очень прост в использовании: задаёте цель с некоторыми опциями на выбор, типа иконки активности, периодичностью напоминаний и датой дедлайна, и отмечаете выполненные дни.
 * [Гречка (Buckwheat).](https://apt.izzysoft.de/fdroid/index/apk/com.danilkinkin.buckwheat) Менеджер финансов и трат.
 
-### 🛍 Дисконтные карты
-* [Catima.](https://github.com/CatimaLoyalty/Android) Карты лояльности с категориями и прочими опциями.
+## 🛍 Дисконтные карты
+* [Catima.](https://github.com/CatimaLoyalty/Android) Карты лояльности с сортировкой по категориям.
 
-### 🎦 Видеосъёмка
-* [mcpro24fps.](https://t.me/mcpro24fps) Лучший бесплатный софт для профессиональной (и не очень) видеосъёмки на Android. К огромному удивлению, действительно удобнее и качественнее своих платных аналогов. Отмечу крайнюю легковесность, приложение весит меньше 2 МБ.
+## 🎦 Видеосъёмка
+* [mcpro24fps.](https://t.me/mcpro24fps) Лучший бесплатный софт для профессиональной (и не очень) видеосъёмки на Android. К огромному удивлению, действительно удобнее и качественнее своих платных аналогов. Отмечу крайнюю легковесность, приложение весит менее ~5 МБ.
 
-### 📷 Веб-камера и микрофон
-* [VO Mic.](https://wolicheng.com/womic/) Используйте свой телефон как микрофон для ПК.
-* [DroidCam.](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam&hl=ru&gl=US) Использование камеры и микрофона устройства на ПК. [Клиенты для декстопных платформ.](https://dev47apps.com/)
+## 📷 Веб-камера и микрофон
+* [VO Mic.](https://wolicheng.com/womic) Используйте свой телефон как микрофон для ПК.
+* [DroidCam.](https://play.google.com/store/apps/details?id=com.dev47apps.droidcam&hl=ru&gl=US) Использование камеры и микрофона устройства на ПК. [Нужно отдельно устанавливать клиент на компьютер.](https://dev47apps.com)
 
-### 📦 Отслеживание посылок
-* [ГдеПосылка.](https://4pda.to/forum/index.php?showtopic=765532&st=620#entry127192901) По ссылке Pro-версия с рабочими уведомлениями.
+## 📦 Отслеживание посылок
 * [Track24.](https://play.google.com/store/apps/details?id=net.track24.android&hl=ru&gl=US) Отслеживание посылок в виде сводки информации со всех международных источников.
 
-### 🗣 Имиджборды и форумы
+## 🗣 Имиджборды и форумы
 * [DashchanFork.](https://github.com/TrixiEther/DashchanFork) Актуальная версия мобильного клиента для различных имиджбордов.
 * [Тема MaterialYou ComboSkin для официального клиента 4PDA.](https://4pda.to/forum/index.php?showtopic=1054830)
 * [ForPDA.](https://f-droid.org/ru/packages/org.softeg.slartus.forpdaplus/) Альтернативный клиент для 4PDA, если оригинальный чем-то не устраивает.
 
-### 📖 Чтение
-* [ReadEra.](https://readera.org/ru)
-
-### 🗾 Аниме и манга
-* [Anixart.](https://t.me/seele_channel/170) Лучший агрегатор аниме на мобильных устройствах. По ссылке мод с премиумом и без региональных ограничений. Опционально добавлена поддержка Monet или AMOLED-темы.
+## 📖 Чтение
+* [ReadEra.](https://readera.org/ru) Универсальная читалка с поддержкой всех актуальных форматов.
 * [Kotatsu.](https://github.com/KotatsuApp/Kotatsu) Приложение для чтения манги.
-* [ShikiWatch.](https://github.com/wheremyfiji/ShikiWatch) Неофициальное приложение для Shikimori с возможностью онлайн просмотра аниме.
 
-### ⚙️ Управление пакетами
+## ⚙️ Управление пакетами
 * [Skit.](https://play.google.com/store/apps/details?id=com.pavelrekun.skit&hl=ru&gl=US) Менеджер установленных приложений. Умеет устанавливать сплит-пакеты, сохранять установленные приложения как .apk/сплит, быстро переходить к папкам с содержимым конкретных программ и другие функции.
-* <sup>`(Root/Shizuku)`</sup> [Canta.](https://github.com/samolego/Canta) Удаление предустановленных приложений.
+* <sup>`(Нужен Shizuku или root-права)`</sup> [Canta.](https://github.com/samolego/Canta) Удаление предустановленных приложений.
 
-### 📥 Магазины приложений
-* [Droid-ify.](https://f-droid.org/packages/com.looker.droidify/) Фронтенд F-Droid, выполненный в Material Design 3.
-  * Рекомендуемые репозитории:  
-`https://apt.izzysoft.de/fdroid/`
-* [Aurora Store](https://f-droid.org/ru/packages/com.aurora.store/) или [App Lounge.](https://doc.e.foundation/support-topics/app_lounge) Свободный фронтенд для Google Play. Не требует авторизации – выбираем анонимную сессию (работает плохо, лучше всё-таки авторизоваться).
+## 📥 Магазины приложений
 * [Obtainium.](https://github.com/ImranR98/Obtainium) Менеджер обновлений приложений из большого количества вручную настраиваемых источников (например GitHub, F-Droid или Huawei AppGallery, полезный для загрузки российских приложений).
 
 <details>
@@ -152,15 +149,21 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 
 </details>
 
-### 🛠 Системные утилиты
+* [Droid-ify.](https://f-droid.org/packages/com.looker.droidify/) Фронтенд F-Droid, выполненный в Material Design 3.
+  * Рекомендуемые репозитории:  
+`https://apt.izzysoft.de/fdroid/`
+* [Aurora Store](https://f-droid.org/ru/packages/com.aurora.store/) Свободный фронтенд для Google Play. Aurora Store давно не пускает в анонимную сессию, и даже после авторизации в Google-аккаунт работает очень плохо, периодически выбрасывая пользователя из акканута, вместе с чем перестаёт работать главная страница и поиск. Не рекомендую полагаться на это приложение, пользоваться им следует только при крайней необходимости. 
+* [App Lounge.](https://doc.e.foundation/support-topics/app_lounge) Альтернатива Aurora Store.
+
+## 🛠 Утилиты
 * [QuickTiles.](https://f-droid.org/packages/com.asdoi.quicktiles/) Позволяет добавлять готовые или кастомные быстрые тогглы для панели управления.
 * [Tasker](https://tasker.joaoapps.com/) или [MacroDroid.](https://macrodroid.com/) Автоматизация действий.
 * [LinkSheet.](https://github.com/LinkSheet/LinkSheet) Возвращает меню выбора приложения, которое откроет ссылку.
-* [Blocker.](https://github.com/lihenggui/blocker) Блокировка компонентов приложений с помощью Intent Firewall. Имеет встроенные списки для массового отключения компонентов аналитики и слежки в других установленных приложениях.
+* [Blocker.](https://github.com/lihenggui/blocker) Блокировка компонентов приложений с помощью Intent Firewall. Имеет встроенные пресеты для массового отключения компонентов аналитики в различных приложениях.
 * [OwnDroid.](https://apt.izzysoft.de/fdroid/index/apk/com.bintianqi.owndroid) Управление функциями системы от имени владельца (админа).
 * [aShell.](https://f-droid.org/packages/in.sunilpaulmathew.ashell/) Терминал для ADB Shell с запущенным Shizuku.
 
-### 🛜 Сеть
+## 🛜 Сеть
 * [NetGuard.](https://github.com/M66B/NetGuard/) Выборочная блокировка доступа к интернету для приложений и ограничение рекламы через hosts, как в AdAway. Работает через локальное VPN-подключение, root-режима нет. [Варез здесь.](https://4pda.to/forum/index.php?showtopic=700336)
 * [PCAPdroid.](https://f-droid.org/ru/packages/com.emanuelef.remote_capture/) Инструмент мониторинга и записи сетевого трафика. Рут-права не для работы необязательны, ибо приложение может работать через локальное VPN-подключение.
 * [Rethink](https://f-droid.org/ru/packages/com.celzero.bravedns/) и [Data Monitor.](https://github.com/itsdrnoob/DataMonitor) Статистика использования трафика приложениями.
@@ -170,19 +173,19 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 > **Не используйте NekoBox из Google Play!** Версия в магазине приложений больше не принадлежит разработчику.
 * [inviZible Pro.](https://f-droid.org/packages/pan.alexander.tordnscrypt.stable/) Обход блокировок через сеть Tor и i2p, а также шифрование DNS-запросов с помощью DNSCrypt. Для нормального запуска Tor, пройдите в быстрые настройки → Настройки Tor → Мосты → Запросить новый мост → выберите *obfs4* → введите капчу и подтвердите запрос, готово.
 
-### ⬇️ Внешние загрузчики
+## ⬇️ Внешние загрузчики файлов
 * [Seal.](https://github.com/JunkFood02/Seal) Загрузчик видео/аудио, использующий yt-dlp (можно использовать aria2c). Очень удобный и простой в использовании. Выполнен в соответствии с MD3.
 * [Aria2App.](https://f-droid.org/packages/com.gianlu.aria2app/) Фронтенд для [aria2.](https://github.com/aria2/aria2) Скачивает почти всё, поддерживает торренты.
 
-### 🗄 Шифрование и безопасное хранение файлов
+## 🗄 Шифрование и безопасное хранение файлов
 * [DroidFS.](https://f-droid.org/packages/sushi.hardcore.droidfs/) Шифрование файлов с использованием [gocryptfs](https://github.com/rfjakob/gocryptfs) или [CryFS](https://github.com/cryfs/cryfs) и управление ими на устройстве.
 * [EDS Lite.](https://f-droid.org/ru/packages/com.sovworks.edslite/) Создание и управление зашифрованными контейнерами на Android.
 
-### ♻️ Резервное копирование
+## ♻️ Резервное копирование
 * [Neo Backup.](https://f-droid.org/ru/packages/com.machiav3lli.backup/) Свободный бэкапер. Выборочное резервирование и восстановление одного или нескольких приложений. Работает только с root-правами.
 * [Lucky Patcher.](https://4pda.to/forum/index.php?showtopic=298302) Нестареющая классика взлома приложений. Строго рекомендуем не лезть этой утилитой в недра системы, пользуйтесь только для операций с софтом.
 
-### 💡 Полезное
+## 💡 Полезное
 * [Калькулятор из MIUI с нормальной иконкой для Launcher3-like лаунчеров.](https://4pda.to/forum/index.php?showtopic=792469&st=400#entry109791426)
 * [LSPatch.](https://github.com/JingMatrix/LSPatch) Имплементация API Xposed в сборку приложения с дальнейшим управлением модулями через менеджер без root-прав. Работает далеко не со всеми модулями, каждый нужно проверять отдельно.
 * [Barcode Scanner.](https://f-droid.org/packages/com.atharok.barcodescanner/) Сканер штрих/QR-кодов.
@@ -201,9 +204,6 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 ## Модули для Magisk
 * [Net Switch.](https://github.com/Rem01Gaming/net-switch) Простой фаервол на iptables для ограничения доступа в интернет конкретным приложениям.
 * [Hide My Applist.](https://github.com/Dr-TSNG/Hide-My-Applist) Скрытие отдельных приложений.
-* [ViPER4Android Repackaged.](https://github.com/programminghoch10/ViPER4AndroidRepackaged)
-  * [ViperFX RE (Material Design 3)](https://github.com/WSTxda/ViperFX-RE-Releases) Дополнительно нужен [драйвер.](https://github.com/WSTxda/ViPERFX_RE/releases)
-* [JamesDSPManager.](https://github.com/Zackptg5/JamesDSPManager/blob/master/install.zip) Актуальный установщик root-версии JamesDSP (при установке рекомендую выбирать интерфейс от [ThePBone](https://github.com/timschneeb)). Дальнейшие обновления приходят автоматически в приложении.
 * [Call Recording](https://modules.lsposed.org/module/io.github.vvb2060.callrecording/) для Google Телефона. Простой модуль без интерфейса, который убирает региональные ограничения на доступ к самой функции записи вызовов и убирает предупреждение о начале записи (обратите внимание: предупреждение перестанет воспроизводиться только после совершения первого звонка с записью вызовов, т.е. при активации записи в первый раз, предупреждение будет озвучено на линии собеседнику, а уже следующие разы будут без предупреждения. Чтобы обойти это, включите автоматическую запись вызовов в настройках и подтвердите согласие на отказ от ответственности во всплывающем окне. Затем фукнцию можно отключить и пользоваться только ручной активацией).
 * [Basic Call Recorder.](https://github.com/chenxiaolong/BCR#readme) Стороннее приложения для записи вызовов.
   * [bcr-gui.](https://github.com/nicorac/bcr-gui) Интерфейс для управления сохраненными записями.
@@ -274,6 +274,6 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * [scrspy.](https://github.com/Genymobile/scrcpy) Универсальное решение для захвата экрана, звука или видео с Android-устройства через прямое подключение по USB или Wi-Fi.
 * Легковесный [ADB Debloater](https://github.com/SunsetTechuila/ADB-Debloater) с оптимальным набором пакетов для всех устройств или более функциональный [Universal Android Debloater](https://github.com/0x192/universal-android-debloater) с большим числом пакетов для прошивок китайских вендоров.
 
-# 📚 Подборки софта
+## 📚 Подборки софта
 * [Большой список исключительно свободного софта для Android (некоторые приложения могут быть устаревшими)](https://github.com/offa/android-foss)
 * [Список всевозможных приложений, выполненных в Material Design 3.](https://github.com/nyas1/Material-You-app-list)
