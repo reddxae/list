@@ -52,6 +52,8 @@
 
 ### Локальное прослушивание
 * [Auxio.](https://github.com/OxygenCobalt/Auxio) Очень простой плеер для локальной музыки. 
+
+### Эквалайзеры
 * [Wavelet.](https://pittvandewitt.github.io/Wavelet/) Скромный эквалайзер с базовыми опциями и поддержкой конфигов AutoEQ. Не требует root-прав или Shizuku и работает с большинством популярных плееров, включая официальные сборки Spotify. [Взломанные версии здесь.](https://4pda.to/forum/index.php?showtopic=994106)
 * <sup>`(Требуется Shizuku)`</sup> [RootlessJamesDSP.](https://github.com/ThePBone/RootlessJamesDSP) Эквалайзер с большим количеством настроек.
 * <sup>`(Требуются root-права)`</sup> [ViPER4Android Repackaged.](https://github.com/programminghoch10/ViPER4AndroidRepackaged)
