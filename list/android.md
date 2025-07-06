@@ -29,7 +29,7 @@
 <sup>`(Требуются root-права и LSPosed)`</sup> [Killergram Neo.](https://github.com/AetherMagee/KillergramNeo/tags) Модуль для клиентов Telegram на основе официального. Позволяет заменить стиль иконок интерфейса на [Solar](https://icones.js.org/collection/solar), скрыть истории из топбара, отключить автовоспроизведение медиа по нажатию на кнопку громкости, убрать рекламу из каналов, делать скриншоты, сохранять медиа и копировать текст из защищенных чатов, снять лимит на количество аккаунтов в приложении и форсировать использование системных шрифтов.
 
 ### X (Twitter)
-* [Готовые сборки X с патчами Piko.](https://github.com/crimera/twitter-apk) Это сторонние revanced-патчи<sup>[`ℹ️`](https://github.com/crimera/piko#%EF%B8%8F-patch-details)</sup> исключительно для Twitter, которые привносят базовые функции, присущие подобным модификациям: локальный премиум, скрытие рекламы, изменение порядка или скрытие элементов в интерфейсе, настройки для встроенного переводчика и другое. Также разблокирована нативная загрузка видео в клеинте.
+* [Готовые сборки X с патчами Piko.](https://github.com/crimera/twitter-apk) Это сторонние revanced-патчи<sup>[`ℹ️`](https://github.com/crimera/piko#%EF%B8%8F-patch-details)</sup> специально для Twitter, которые привносят базовые функции, присущие подобным модификациям: локальный премиум, скрытие рекламы, изменение порядка или скрытие элементов в интерфейсе, настройки для встроенного переводчика и другое. Также разблокирована нативная загрузка видео в клеинте.
 
 ### Matrix
 * [Element для Matrix.](https://element.io/download) Самый функциональный и стабильный кроссплатформенный клиент из доступных. Возможно, это вообще единственный клиент, что всеобъемлюще задействует доступные возможности платформы.
@@ -61,9 +61,9 @@
 * <sup>`(Требуются root-права)`</sup> [JamesDSPManager.](https://github.com/Zackptg5/JamesDSPManager/blob/master/install.zip) Актуальный установщик root-версии JamesDSP (при установке рекомендую выбирать интерфейс от [ThePBone](https://github.com/timschneeb)). Дальнейшие обновления приходят автоматически в приложении.
 
 ## 🌐 Браузеры
-* [Edge.](https://play.google.com/store/apps/details?id=com.microsoft.emmx) Да, внезапно самый сбалансированный браузер на сегодня. Имеет хоть и ограниченную, но достаточную поддержку расширений для большинства пользователей (Dark Reader, Tampermonkey, SponsorBlock и другие), интерфейс постепенно становится удобнее. Основан на Chromium.
+* [Edge.](https://play.google.com/store/apps/details?id=com.microsoft.emmx) Да, внезапно самый сбалансированный браузер на сегодня. Имеет хоть и ограниченную, но достаточную поддержку расширений для большинства пользователей (Dark Reader, Tampermonkey, SponsorBlock и другие), интерфейс постепенно становится удобнее. Базируется на Chromium.
 > Можно установить uBlock Origin (не Lite) с некоторыми махинациями: для приложения нужно установить китайский язык, тогда расширение станет доступным для загрузки и останется после возвращения языка. Чтобы не переключать весь интерфейс системы на китайский, а поменять его только для Edge, воспользуйтесь [этой командой.](https://github.com/reddxae/list/blob/main/list/android.md#:~:text=Разблокировать%20смену%20языка%20для%20всех%20приложений%20на%20Android%2013%2B)
-* [Iceraven.](https://github.com/fork-maintainers/iceraven-browser) Форк Firefox на GeckoView с нормальной поддержкой расширений, чуть более широкой кастомизацией и доступом к флагам (`about:config`).
+* [Iceraven.](https://github.com/fork-maintainers/iceraven-browser) Форк Firefox на движке GeckoView<sup>[`ℹ️`](https://mozilla.github.io/geckoview)</sup> с полноценной поддержкой расширений, чуть более широкой кастомизацией и доступом к флагам (`about:config`).
 * 🪦 <sup>`(Разработка прекращена)`</sup> [Kiwi Browser.](https://github.com/kiwibrowser/src.next/releases/tag/12867802748) Поддерживает [десктопные расширения](https://github.com/reddxae/list/blob/main/list/browser_add-ons.md) для Chrome и ещё [несколько полезных функций.](https://kiwibrowser.com/features)
 * [Cromite.](https://github.com/uazo/cromite) Форк Bromite [с большим количеством функций.](https://github.com/uazo/cromite#features)
 
@@ -132,7 +132,7 @@
 
 <details>
 
-<summary>Прямые ссылки на некоторые российские приложения из AppGallery</summary>
+<summary>Прямые ссылки на некоторые российские приложения из Huawei AppGallery</summary>
 
 Т-Банк (Тинькофф): `https://appgallery.huawei.com/app/C101291451`  
 Mir Pay: `https://appgallery.huawei.com/app/C103191567`  
@@ -201,7 +201,7 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 Все приложения ниже поддерживают работу на устройствах без root-прав!  
 [Автоматический запуск Shizuku после перезагрузки через Automate](https://llamalab.com/automate/community/flows/44848) и [как поставить.](https://www.reddit.com/r/Android/comments/128eak8/comment/jescmhz/?utm_source=share&utm_medium=web2x&context=3)
 * [ShizuTools.](https://github.com/legendsayantan/ShizuTools) Набор утилит для работы с привилигерованным доступом. Также добавляет новые функции в систему (например, управление громкостью отдельных приложений, разрешает понижение версии приложения без переустановки, форсирует Картинку-в-картинке для приложений, что её запрещают).
-* <sup>`(Google Tensor)`</sup> [Pixel VoLTE Patch.](https://github.com/kyujin-cho/pixel-volte-patch/blob/main/README.en.md) Активация VoLTE на устройствах Pixel с процессором Tensor (Pixel 6 и новее).
+* <sup>`(Устройства Pixel на Google Tensor)`</sup> [Pixel VoLTE Patch.](https://github.com/kyujin-cho/pixel-volte-patch/blob/main/README.en.md) Активация VoLTE и доступной агрегации без root-прав на Pixel 6 и новее.
 
 Рекомендую заглянуть в [Awesome Shizuku.](https://github.com/ThePBone/awesome-shizuku) Это обновляемый список приложений, поддерживающих работу через локальный adb.
 
