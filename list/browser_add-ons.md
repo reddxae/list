@@ -41,17 +41,6 @@ aternos.org##.new.boost-cta-box
 
 * Реклама на странице погоды
 ```
-yandex.*##:matches-path(/\/(weather|pogoda)\//) #content_right
-yandex.*##:matches-path(/\/(weather|pogoda)\//) .blog-widget
-yandex.*##:matches-path(/\/(weather|pogoda)\//) [role="main"] > :not(#content_left, [data-bem*="/weather"])
-yandex.*##:matches-path(/\/(weather|pogoda)\//) [role="main"] > :not(#content_left, [data-bem*="/pogoda"])
-yandex.*##:matches-path(/\/(weather|pogoda)\//) .card:not(:has(.weather-table))
-yandex.*##:matches-path(/\/(weather|pogoda)\//) [data-bem*="segment-details"] > :not(article)
-yandex.*##:matches-path(/\/(weather|pogoda)\//) #__next > [data-overlay-container="true"] > div > div:has(main) > div
-yandex.*##:matches-path(/\/(weather|pogoda)\//) #__next > [data-overlay-container="true"] main > div:not(:has(nav)) > div:not(:has(article, ul))
-yandex.*##:matches-path(/\/(weather|pogoda)\//) #__next > [data-overlay-container="true"] main > div:not(:has(nav)) > div:has(ul) > div > div:not(:has(article, button))
-yandex.*##:matches-path(/\/(weather|pogoda)\//) .pro-entry-points
-yandex.*##:matches-path(/\/(weather|pogoda)\//) .header-b2b__menu-item
 yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="Money_wrap"]
 yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppPromo"]
 yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="RateMe"]
