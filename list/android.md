@@ -215,8 +215,8 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
   1. Если у вас есть root-права: запускаем в Терминале команду `su -c "cmd package bg-dexopt-job"` и ожидаем окончания процесса (будет выведена строка Success).
   2. Если root-прав нет, выполняем `cmd package bg-dexopt-job` через Shizuku или классический `adb shell`.
   3. Предкомпиляция байт-кода, принудительное пересоздание уже созданного ранее системой кэша: `pm compile -a -f -m everything; cmd package bg-dexopt-job` (рекомендуется).
-* Разблокировать смену языка для всех приложений на Android 13+ (может не поддерживаться приложением, в таком случае смена языка не окажет никакого эффекта):
-  `settings put global settings_app_locale_opt_in_enabled false`
+* Разблокировать смену языка для всех приложений на Android 13+ (может не поддерживаться приложением, в таком случае смена языка не окажет никакого эффекта): `settings put global settings_app_locale_opt_in_enabled false`
+* Активация дополнительных настроек панели навигации на One UI: `settings put global navigationbar_splugin_flags 4`
 
 Оптимизация отдельного приложения производится командой `cmd package compile --reset <имя_пакета>`.
 * [scrspy.](https://github.com/Genymobile/scrcpy) Универсальное решение для захвата экрана, звука или видео с Android-устройства через прямое подключение по USB или Wi-Fi.
