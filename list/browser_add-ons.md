@@ -89,6 +89,8 @@ yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppBlog"]
 * [SponsorBlock.](https://sponsor.ajay.app/) Автоматический пропуск рекламы в видео, отрывки (таймкоды) которой указывает сообщество.
 * [Return YouTube Dislike.](https://www.returnyoutubedislike.com/) Возвращает отображение количества дизлайков под видео.<sup>[`ℹ️`](https://www.returnyoutubedislike.com/faq)</sup>
 * [Enchancer for YouTube.](https://chromewebstore.google.com/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle) Кастомизация страницы и плеера YouTube.
+* [Refined GitHub.](https://github.com/refined-github/refined-github) Упрощает интерфейс GitHub и добавляет полезные функции.
+* [Ears.](https://chromewebstore.google.com/detail/ears-bass-boost-eq-any-au/nfdfiepdkbnoanddpianalelglmfooik) Эквалайзер с базовым набором функций (общая громкость, графический эквалайзер, пресеты). Активируется для отдельных выбранных вкладок.
 
 <details>
 
