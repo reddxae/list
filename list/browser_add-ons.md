@@ -104,6 +104,7 @@ yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppBlog"]
 .ytp-swatch-background-color,
 #progress.ytd-thumbnail-overlay-resume-playback-renderer,
 #progress.yt-page-navigation-progress,
+.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment,
 .yt-spec-avatar-shape--live-ring::after,
 .ytProgressBarLineProgressBarPlayed,
 .ytp-play-progress {
