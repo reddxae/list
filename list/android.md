@@ -2,14 +2,13 @@
 
 ## 📹 Стриминговый контент
 * [ReVanced для YouTube.](https://revanced.app/patches?pkg=com.google.android.youtube) Идейное продолжение Vanced — модификации, предоставляющей блокировку рекламы, фоновое воспроизведение видео, режим Картинка-в-картинке и другие полезные функции, официально предоставляемые только за плату или вовсе недоступные в официальном клиенте. [По ссылке](https://github.com/j-hc/revanced-magisk-module/releases) предоставлены готовые сборки в виде модулей и non-root версий (требуется [ReVanced GmsCore](https://github.com/ReVanced/GmsCore)).
-  * Рекомендую использовать сборки ReVanced Extended на основе патчей от [inotia00.](https://github.com/inotia00/revanced-patches) Они содержат [больше функций](https://github.com/inotia00/revanced-patches?tab=readme-ov-file#-comgoogleandroidyoutube). Скачать можно по ссылке выше (релизы, включающие "YouTube-Extended") или [в моем репозитории.](https://github.com/reddxae/revanced-builds/releases)
-* [PurpleTV для Twitch.](https://t.me/pubTw) Модификация на основе официального клиента (ранее называлась TwitchMod). Позволяет скрывать или перемещать элементы интерфейса, можно обходить блокировки в чатах (писать нельзя, но доступен просмотр). Для чатов также доступны кастомные смайлики (BTTV и подобные). Встроен VODHunter и другие функции.
-* [Взломанная версия приватного мода от TikTokModCloud.](https://t.me/tiktalkupdate) Ранее это был отдельный мод от Jaggu со схожей функциональностью, но времена меняются. Мод всё так же позволяет выкладывать фото/видео без VPN, менять по необходимости регион, и в целом работа клиента неотличимо стабильна от оригинала. Замечу, что автору канала очень свойственно пропасть на полгода без обновлений, поэтому если для вас важна актуальность приложения и методов обхода ограничений, стоит [приобрести мод](https://t.me/TikTokMod_Bot) у его разработчиков.
-  * Может, пригодится: [здесь](https://t.me/tiktokmodcloud_apk) также публикуется и бесплатная версия мода от TikTokModCloud, без убогих рефералок и прочих трудностей с загрузкой. В этих версиях публикация медиа работает не у всех, а также могут появляться скрываемые рекламные баннеры.
+  * Рекомендую использовать сборки ReVanced Extended на основе патчей от [anddea.](https://github.com/anddea/revanced-patches) Они содержат [больше функций](https://github.com/anddea/revanced-patches?tab=readme-ov-file#-comgoogleandroidyoutube). Скачать можно по ссылке выше (релизы, включающие "YouTube-Extended").
+* [TikTok You.](https://t.me/tikyoutok) Модификация на TikTok с обходом региональных ограничений и дополнительными функциями. Мод позволяет публиковать контент без VPN, опционально скрыть рекламу, фотографии или стримы в ленте, а так же скрыть панель с аватарками (историями) в разделе переписки. 
+  * Может, пригодится: [здесь](https://t.me/tiktokmodcloud_apk) также публикуется бесплатная версия мода от TikTokModCloud, без убогих рефералок и прочих трудностей с загрузкой. В этих версиях публикация медиа работает не у всех, а также могут появляться рекламные баннеры и "аварийные обновления" с переходниками в Telegram-каналы сомнительного содержания, чем авторы мода и прославились в народе.
 
 > [!TIP]
-> Можно подменить код региона SIM-карты в системе, что позволит использовать официальную версию TikTok прямо из Google Play со всеми функциями, включая публикацию контента. Сделать это можно с помощью [модуля](https://github.com/reddxae/list/blob/files/iso-code-changer.zip) (по умолчанию указана Беларусь) или [через Shamiko](https://github.com/nullbytepl/CarrierVanityName), если у вас нет root-прав.
-* [Anixart.](https://t.me/seele_channel) Удобный агрегатор аниме на мобильных устройствах. Рекомендую использовать [мод от разработчика Veliona](https://t.me/s/veliona_channel?q=Anixart), в котором вырезана реклама и региональные ограничения.
+> Можно подменить код региона SIM-карты в системе, что позволит использовать официальную версию TikTok прямо из Google Play со всеми функциями, включая публикацию контента. Учтите, что в оригинальном приложении присутствует реклама. Подмена осуществляется с помощью [модуля](https://github.com/reddxae/list/blob/files/iso-code-changer.zip) (по умолчанию указана Беларусь) или [через Shamiko](https://github.com/nullbytepl/CarrierVanityName), если у вас нет root-прав.
+* [Anixart.](https://t.me/anixart) Удобный агрегатор аниме на мобильных устройствах.
 * [ShikiWatch.](https://github.com/wheremyfiji/ShikiWatch) Неофициальное приложение для Shikimori.
 
 ## 💬 Социальные сети и мессенджеры
@@ -28,10 +27,13 @@
   * [🚨⚠️ AyuGram.](https://t.me/ayugramchat) Клиент на основе exteraGram, содержащий в себе функции режима "невидимки", сохранения удалённых сообщений, сохранение истории редактирования сообщений, пересылка и скриншоты в каналах, где это запрещено настройками приватности. Помимо этого, в клиенте полностью отсутствует реклама даже без подписки Telegram Premium.
 * [🚨 Plus Messenger.](https://t.me/PlusMessengerUpdates) Идейный собрат ныне покойного [🚨 BGram.](https://t.me/BGramChannel) Содержит огромное количество функций и широкую кастомизацию.
 
-<sup>`(Требуются root-права и LSPosed)`</sup> [Killergram Neo.](https://github.com/AetherMagee/KillergramNeo/tags) Модуль для клиентов Telegram на основе официального. Позволяет заменить стиль иконок интерфейса на [Solar](https://icones.js.org/collection/solar), скрыть истории из топбара, отключить автовоспроизведение медиа по нажатию на кнопку громкости, убрать рекламу из каналов, делать скриншоты, сохранять медиа и копировать текст из защищенных чатов, снять лимит на количество аккаунтов в приложении и форсировать использование системных шрифтов.
+<sup>`(Требуются root-права и LSPosed)`</sup> [Killergram Neo.](https://github.com/AetherMagee/KillergramNeo/tags) Модуль для клиентов Telegram на основе официального. Позволяет заменить стиль иконок интерфейса на [Solar](https://icones.js.org/collection/solar), скрыть истории из топбара, отключить автовоспроизведение медиа по нажатию на кнопку громкости, убрать рекламу из каналов, делать скриншоты, сохранять медиа и копировать текст из защищенных чатов, снять лимит на количество аккаунтов в приложении, скрыть платные реакции (Stars), скрыть нижнюю панель в каналах, форсировать использование системных шрифтов и другое.
 
 ### X (Twitter)
 * [Готовые сборки X с патчами Piko.](https://github.com/crimera/twitter-apk) Это сторонние revanced-патчи<sup>[`ℹ️`](https://github.com/crimera/piko#%EF%B8%8F-patch-details)</sup> специально для Twitter, которые привносят базовые функции, присущие подобным модификациям: локальный премиум, скрытие рекламы, изменение порядка или скрытие элементов в интерфейсе, настройки для встроенного переводчика и другое. Также разблокирована нативная загрузка видео в клеинте.
+>
+> [!IMPORTANT]
+> метод установки [WIP]
 
 ### Matrix
 * [Element X.](https://github.com/element-hq/element-x-android) Освеженная версия наиболее удобного и стабильного клиента из доступных. Заменяет [Element Classic](https://github.com/element-hq/element-android), который пока ещё функциональнее новой версии, но разрыв между ними стремительно сокращается.
@@ -39,11 +41,8 @@
 
 ## 🎧 Музыка и эквалайзеры
 
-### Стриминговые сервисы
-* [VK X.](https://t.me/vkxci) Плеер для VK Музыки с качественным интерфейсом и широким функционалом. Без рекламы.
-
 ### Локальное прослушивание
-* [Auxio.](https://github.com/OxygenCobalt/Auxio) Очень простой плеер для локальной музыки. 
+* [Auxio.](https://github.com/OxygenCobalt/Auxio) Простой плеер для локальной музыки. 
 
 ### Эквалайзеры
 * [Wavelet.](https://pittvandewitt.github.io/Wavelet/) Скромный эквалайзер с базовыми опциями и поддержкой конфигов AutoEQ. Не требует root-прав или Shizuku и работает с большинством популярных плееров, включая официальные сборки Spotify. [Взломанные версии здесь.](https://4pda.to/forum/index.php?showtopic=994106)
@@ -52,11 +51,14 @@
   * [ViperFX RE (Material Design 3).](https://github.com/WSTxda/ViperFX-RE-Releases) Дополнительно нужен [драйвер.](https://github.com/WSTxda/ViPERFX_RE/releases)
 * <sup>`(Требуются root-права)`</sup> [JamesDSPManager.](https://github.com/Zackptg5/JamesDSPManager/blob/master/install.zip) Актуальный установщик root-версии JamesDSP (при установке рекомендую выбирать интерфейс от [ThePBone](https://github.com/timschneeb)). Дальнейшие обновления приходят автоматически в приложении.
 
+## 📞 Вызовы, сообщения и контакты
+* [DAVx5.](https://github.com/bitfireAT/davx5-ose) [WIP]
+
 ## 🌐 Браузеры
-* [Edge.](https://play.google.com/store/apps/details?id=com.microsoft.emmx) Да, внезапно самый сбалансированный браузер на сегодня. Имеет хоть и ограниченную, но достаточную поддержку расширений для большинства пользователей (Dark Reader, Tampermonkey, SponsorBlock и другие), интерфейс постепенно становится удобнее. Основан на Chromium.
-* [Cromite.](https://github.com/uazo/cromite) Форк Bromite [с большим количеством функций.](https://github.com/uazo/cromite#features) Недавно появилась поддержка расширений.
-* [Iceraven.](https://github.com/fork-maintainers/iceraven-browser) Форк Firefox на GeckoView с нормальной поддержкой расширений, чуть более широкой кастомизацией и доступом к флагам (`about:config`).
-* 🪦 <sup>`(Разработка прекращена)`</sup> [Kiwi Browser.](https://github.com/kiwibrowser/src.next/releases/tag/12867802748) Поддерживает [десктопные расширения](https://github.com/reddxae/list/blob/main/list/browser_add-ons.md) для Chrome и ещё [несколько полезных функций.](https://kiwibrowser.com/features) Много багов интерфейса.
+* [Via.](https://play.google.com/store/apps/details?id=mark.via.gp) [WIP]
+* [Cromite.](https://github.com/uazo/cromite) Форк Bromite [с большим количеством функций.](https://github.com/uazo/cromite#features) Поддерживает расширения (работает нестабильно).
+* [Firefox.](https://play.google.com/store/apps/details?id=org.mozilla.firefox) [WIP]
+* 🪦 <sup>`(Разработка прекращена)`</sup> [Kiwi Browser.](https://github.com/kiwibrowser/src.next/releases/tag/12867802748) Поддерживает [десктопные расширения](https://github.com/reddxae/list/blob/main/list/browser_add-ons.md) для Chrome и ещё [несколько полезных функций.](https://kiwibrowser.com/features) В послдених релизах много багов интерфейса.
 
 ## 📪 Почтовые клиенты
 * [Thunderbird (ранее K-9 Mail).](https://github.com/thunderbird/thunderbird-android) Лёгкий почтовый клиент без рекламы. Не поддерживает FCM (облачные сообщения), то есть все письма будут приходить на устройство только после запланированной или ручной проверки ящиков.
@@ -69,10 +71,10 @@
 * [Photok.](https://f-droid.org/packages/dev.leonlatsch.photok/) Хранение фотографий на устройстве под кодовой защитой с применением шифрования.
 
 ## ☀️ Погода
-* [Breezy Weather.](https://github.com/breezy-weather/breezy-weather) Форк [Geomertic Weather](https://github.com/WangDaYeeeeee/GeometricWeather), выросший в отдельный проект. Гибко настраиваемое приложение с прогнозами погоды. Поддерживает множество источников.
+* [Breezy Weather.](https://github.com/breezy-weather/breezy-weather) Форк [Geomertic Weather](https://github.com/WangDaYeeeeee/GeometricWeather), выросший в отдельный проект. Гибко настраиваемое приложение, поддерживает множество источников.
 * [Bura.](https://github.com/davidtakac/bura) Очень простое приложение наподобие странице погоды в мобильном приложении Google.<sup>[`ℹ️`](https://github.com/user-attachments/assets/698074d1-6030-4dcd-8999-1601b9942ea4)</sup>
 * <sup>`(Android 14+)`</sup> [Погода Pixel.](https://www.apkmirror.com/apk/google-inc/pixel-weather) Клиент метеорологического сервиса от Google.
-> Если вам нравится [погода от Яндекса](https://yandex.ru/pogoda), но не нравится обилие рекламы, её можно отключить, пройдя в раздел "О приложении" в настройках и включив пункт "Не показывать рекламу" (до версии [25.8.31](https://www.apkmirror.com/apk/direct-cursus-computer-systems-trading-llc/yandex-weather/yandex-weather-rain-radar-25-8-31-release), затем опцию вырезали). А ещё есть приложение [Meteum](https://play.google.com/store/apps/details?id=ai.meteum&hl=ru) — тот же сервис Яндекса для иностранного рынка. В нём нет никакой рекламы по умолчанию, но отсутствует русская локализация.
+> Если вам нравится [погода от Яндекса](https://yandex.ru/pogoda), но не нравится обилие рекламы, её можно отключить, пройдя в раздел "О приложении" в настройках и включив пункт "Не показывать рекламу" (до версии [25.8.31](https://www.apkmirror.com/apk/direct-cursus-computer-systems-trading-llc/yandex-weather/yandex-weather-rain-radar-25-8-31-release), затем опцию вырезали).
 
 ## 🔍 Поиск
 * [Поиск Pixel.](https://4pda.to/forum/index.php?showtopic=1095929) Поиск в интернете и на устройстве, как в Pixel Launcher (начиная с Android 13 QPR1+). [Рекомендую мой русифицированный мод.](https://4pda.to/forum/index.php?showtopic=1095929&view=findpost&p=132797216) Для работы приложения в системе должен быть установлен почтовый клиент.
@@ -117,7 +119,7 @@
 * [Kotatsu Redo.](https://github.com/Kotatsu-Redo/Kotatsu-Redo) Приложение для чтения манги.
 
 ## ⚙️ Управление пакетами
-* [Package Manager.](https://github.com/SmartPack/PackageManager) Менеджер установленных приложений. Умеет устанавливать сплит-пакеты, сохранять установленные приложения как APK, быстро переходить к папкам с содержимым конкретных программ, отключать/удалять приложения, в т.ч. системные (нужен Shizuku или root-права) и другие полезные функции.
+* [Package Manager.](https://github.com/SmartPack/PackageManager) Менеджер установленных приложений. Умеет устанавливать сплит-пакеты, сохранять установленные приложения как APK, быстро переходить к папкам с содержимым конкретных программ, отключать/удалять приложения, в т.ч. системные (нужен Shizuku) и другие полезные функции.
 * <sup>`(Нужен Shizuku или root-права)`</sup> [Canta.](https://github.com/samolego/Canta) Удаление предустановленных приложений.
 
 ## 📥 Магазины приложений
@@ -149,7 +151,7 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * [Droid-ify.](https://f-droid.org/packages/com.looker.droidify/) Фронтенд F-Droid, выполненный в Material Design 3.
   * Рекомендуемые репозитории:  
 `https://apt.izzysoft.de/fdroid/`
-* [Aurora Store](https://f-droid.org/ru/packages/com.aurora.store/) Свободный фронтенд для Google Play. Aurora Store с трудом пускает в анонимную сессию, и даже после авторизации в Google-аккаунт работает плохо, периодически выбрасывая пользователя из акканута, вместе с чем перестаёт работать главная страница и поиск. Не рекомендую полагаться на это приложение. 
+* [Aurora Store](https://f-droid.org/ru/packages/com.aurora.store/) Свободный фронтенд для Google Play. С трудом пускает в анонимную сессию, рекомендую авторизовываться в Google-аккаунт.
 * [App Lounge.](https://doc.e.foundation/support-topics/app_lounge) Альтернатива Aurora Store.
 
 ## 🛠 Утилиты
@@ -164,14 +166,12 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * [NetGuard.](https://github.com/M66B/NetGuard/) Выборочная блокировка доступа к интернету для приложений и ограничение рекламы через hosts, как в AdAway. Работает через локальное VPN-подключение, root-режима нет. [Варез здесь.](https://4pda.to/forum/index.php?showtopic=700336)
 * [PCAPdroid.](https://f-droid.org/ru/packages/com.emanuelef.remote_capture/) Инструмент мониторинга и записи сетевого трафика. Рут-права не для работы необязательны, ибо приложение может работать через локальное VPN-подключение.
 * [Rethink](https://f-droid.org/ru/packages/com.celzero.bravedns/) и [Data Monitor.](https://github.com/itsdrnoob/DataMonitor) Статистика использования трафика приложениями.
-* [Hiddify Next.](https://github.com/hiddify/hiddify-next) "Однокнопочный" клиент для прокси и VPN.
 * [NekoBox.](https://github.com/MatsuriDayo/NekoBoxForAndroid) Управление прокси и VPN на базе ядра sing-box (если вам нужно ядро Xray, используйте [v2rayNG](https://github.com/2dust/v2rayNG)).
 > [!CAUTION]
 > **Не используйте NekoBox из Google Play!** Версия в магазине приложений больше не принадлежит разработчику.
-* [inviZible Pro.](https://f-droid.org/packages/pan.alexander.tordnscrypt.stable/) Обход блокировок через сеть Tor и i2p, а также шифрование DNS-запросов с помощью DNSCrypt. Для нормального запуска Tor, пройдите в быстрые настройки → Настройки Tor → Мосты → Запросить новый мост → выберите *obfs4* → введите капчу и подтвердите запрос, готово.
 
 ## ⬇️ Внешние загрузчики файлов
-* [YTDLnis](https://github.com/deniscerri/ytdlnis) или [Seal.](https://github.com/JunkFood02/Seal) Загрузчик видео/аудио, использующий yt-dlp (в последнем можно использовать aria2). Удобный и простой в использовании.
+* [YTDLnis.](https://github.com/deniscerri/ytdlnis) Загрузчик видео/аудио, использующий yt-dlp (в последнем можно использовать aria2). Удобный и простой в использовании.
 * [Aria2App.](https://f-droid.org/packages/com.gianlu.aria2app/) Фронтенд для [aria2.](https://github.com/aria2/aria2) Скачивает почти всё что угодно, поддерживает торренты.
 
 ## 🗄 Шифрование и безопасное хранение файлов
@@ -209,40 +209,34 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
   4. Оптимизация отдельного приложения производится командой `cmd package compile --reset <имя_пакета>`.
 * Разблокировать смену языка для всех приложений на Android 13+ (может не поддерживаться приложением, в таком случае смена языка не окажет никакого эффекта): `settings put global settings_app_locale_opt_in_enabled false`
 * Активация дополнительных настроек панели навигации на One UI: `settings put global navigationbar_splugin_flags 4`
-
-> 
-> [!NOTE]
-> На устройствах с One UI некоторые изменения в настройках, внесенные через adb, слетают после перезагрузки. Если у вас есть root-права, рекомендую добавить нужные команды в service.d.
-
 * [scrspy.](https://github.com/Genymobile/scrcpy) Универсальное решение для захвата экрана, звука или видео с Android-устройства через прямое подключение по USB или Wi-Fi.
 * Легковесный [ADB Debloater](https://github.com/SunsetTechuila/ADB-Debloater) с оптимальным набором пакетов для всех устройств или более функциональный [Universal Android Debloater](https://github.com/0x192/universal-android-debloater) с большим числом пакетов для прошивок китайских вендоров.
 
 ## 🎭 Модули для Magisk/KernelSU
-* [ReZygisk.](https://github.com/PerformanC/ReZygisk) Свободная реализация Zygisk с фокусом на производительность.
-* [LSPosed от JingMatrix](https://github.com/JingMatrix/LSPosed) или его форк [ReLSPosed](https://github.com/ThePedroo/ReLSPosed) (с улучшенной защитой от обнаружений). Свободная реализация LSPosed Framework.
-* [Tricky Store OSS.](https://github.com/beakthoven/TrickyStoreOSS) Форк, свободная альтернатива одноимённого модуля, ныне поставляемого с закрытым исходным кодом в обфусцированном виде.
+* [NeoZygisk.](https://github.com/JingMatrix/NeoZygisk) Свободная реализация Zygisk с фокусом на стабильность.
+* [LSPosed от JingMatrix](https://github.com/JingMatrix/LSPosed) Свободная реализация LSPosed Framework.
+* [TEESimulator.](https://github.com/JingMatrix/TEESimulator) Свободная альтернатива Tricky Store, ныне поставляемого с закрытым исходным кодом в обфусцированном виде.
 * [Play Integtiry Fix.](https://github.com/KOWX712/PlayIntegrityFix) Вспомогательный модуль для прохождения аттестации Play Integrity.
-* [Net Switch.](https://github.com/Rem01Gaming/net-switch) Простой фаервол на iptables для ограничения доступа в интернет конкретным приложениям.
-* [Hide My Applist.](https://github.com/Dr-TSNG/Hide-My-Applist) Скрытие отдельных приложений.
+* [Net Switch.](https://github.com/Rem01Gaming/net-switch) Простой фаервол на iptables для ограничения доступа в интернет конкретным приложениям. [Fork](https://github.com/reddxae/net-switch) [WIP]
+* [HMA-OSS (Hide My Applist).](https://github.com/frknkrc44/HMA-OSS) Скрытие отдельных приложений.
 * [Basic Call Recorder.](https://github.com/chenxiaolong/BCR#readme) Стороннее приложения для записи вызовов.
   * [bcr-gui.](https://github.com/nicorac/bcr-gui) Интерфейс для управления сохраненными записями.
-* [Font Loader.](https://github.com/JingMatrix/FontLoader) Предзагружает файлы кастомных шрифтов с помощью Zygisk для приложений, для которых модули размонтированы, тем самым предотвращая вылет из-за невозможности доступа приложения к шрифтам.
-* [KTweak.](https://t.me/ktweak) Безопасные твики производительности, разделенные на пресеты с разными нуждами. Не требуется для современных устройств.
 * [Global Optimized GPS.](https://github.com/skyrocketingHong/OptmizedGPSConf) Улучшение и ускорение фиксации/блокировки спутниковых сигналов.
 * [DriveDroid Fix.](https://github.com/overzero-git/DriveDroid-fix-Magisk-module) Восстаналивает работу DriveDroid на новых версиях Android.
-* <sup>`(Google Tensor)`</sup> [Universal Modem Fix.](https://github.com/daradan/5g_enabler) Снимает ограничения работы LTE в странах СНГ.
+* <sup>`(Google Pixel 6+)`</sup> [Universal Modem Fix.](https://github.com/daradan/5g_enabler) Снимает ограничения работы LTE в странах СНГ.
 * [Custota.](https://github.com/chenxiaolong/Custota) Установка OTA-обновлений с вашего сервера. Поддерживает работу в паре с [avbroot.](https://github.com/chenxiaolong/avbroot/blob/master/README.ru.md)
   - [PixelUpdater.](https://github.com/PixelUpdater/PixelUpdater) Замена встроенного OTA-апдейтера в стоковой прошивке Pixel. Установка официальных обновлений системы от Google для рутированных устройств с автоматическим патчингом Magisk и пропуском ненужных проверок, что значительно ускоряет процесс обновления.
 * [QuickSwitch.](https://github.com/j7b3y/QuickSwitch/releases) Безболезненная замена стандартного лаунчера вместе с провайдером меню недавних приложений.
 * [Disable logs.](https://github.com/reddxae/list/tree/files#disable-logs) Отключение логгирования.
 * [BitGApps.](https://bitgapps.io/) Установка GApps в качестве модуля.
-* [microG Installer Revived.](https://github.com/nift4/microg_installer_revived) Установка microG в качестве системного приложения (необходимо для работы геолокации). Для microG требуется поддержка подмены подписи. Если ваша прошивка её не поддерживает, заводим через [этот модуль для LSPosed.](https://github.com/reddxae/list/blob/main/list/android.md#:~:text=FakeGApps)
-  - [microG Sync Services.](https://github.com/reddxae/list/blob/files/microg-sync-services.zip) Добавляет сервисы синхронизации данных для контактов и календаря из аккаунта Google.
+* [Stub Provider for microG.] [WIP]
 * [zygisk-detach.](https://github.com/j-hc/zygisk-detach) Блокировка принудительного автообновления приложений в Google Play (например, YouTube) путём скрытия их наличия в системе от маркета.
   * [zygsik-detach-app.](https://github.com/j-hc/zygisk-detach-app) Интерфейс для модуля на случай, если ваш менеджер модулей не поддерживает WebUI.
 
 ### Модули для LSPosed
 
+* [RevancedXposed.](https://github.com/chsbuffer/ReVancedXposed) [WIP]
+  * [RevancedXposed Spotify.](https://github.com/chsbuffer/ReVancedXposed_Spotify) [WIP]
 * [SmartPiXelsPosed.](https://github.com/frknkrc44/SmartPiXelsPosed) Порт функции "Умных пикселей" из кастомных прошивок.
 * <sup>`(Android 14+)`</sup> [DisableTargetAPIBlock.](https://github.com/buttercookie42/DisableTargetAPIBlock) В Android 14 было введено новое ограничение на установку древних приложений, из-за которого установщик выдаст ошибку, если Target API (целевая версия Android) слишком низкая. Этот модуль снимает это ограничение.
 * <sup>`(Android 14+)`</sup> [CaptureSposed.](https://github.com/99keshav99/CaptureSposed) Отключает API обнаружения скриншотов приложениями.<sup>[`ℹ️`](https://github.com/99keshav99/CaptureSposed#capturesposed)</sup>
@@ -264,10 +258,9 @@ Wildberries: `https://appgallery.huawei.com/app/C101183325` (ещё доступ
 * <sup>`(Root, Android 12+)`</sup> [ColorBlendr.](https://github.com/Mahmud0808/ColorBlendr) Приложения для тонкой настройки вашей Monet-темы. Поддерживает покраску новых приложений от Google и других с обновлёнными компонентами Material Design.
 * <sup>`(Root, Android 12+)`</sup> [Global Icon Pack.](https://github.com/RichardLuo0/global-icon-pack-android) Применение пакетов иконок для всей системы и/или для лаунчеров, где эта функциональность не предусмотрена.
 * <sup>`(Root, Android 12+)`</sup> [Classic Power Menu.](https://github.com/KieronQuinn/ClassicPowerMenu) Возвращает «классическое» меню питания (как в Android 11) с быстрым доступом к картам в Google Wallet, плиткам «Управления домом» и дисконтным картам.
-* <sup>`(Shizuku, Android 12+)`</sup> [Smartspacer.](https://github.com/KieronQuinn/Smartspacer) Модификация встроенного виджета "Самое главное" (At a Glance) для устройств Pixel.
 * [WallMan.](https://apt.izzysoft.de/fdroid/index/apk/com.colorata.wallman) Живые обои всех моделей Google Pixel в одном месте.
 * [Lawnicons.](https://github.com/LawnchairLauncher/lawnicons/releases) Хороший набор иконок для всех лаунчеров.
-* <sup>`(макс. Android 13, 14 и выше не поддерживается)`</sup> 🪦 [Shortcut Maker.](https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker) Позволяет создавать шорткаты приложений с автоматической Monet-покраской (для тех, что не поддерживают ее по умолчанию) или с использованием сторонних иконпаков, неотличимо маскируя результат под нативные иконки в любом Launcher3-like лончере (это Pixel Launcher, Trebuchet, crDroid Home и прочие).
+* <sup>`(Android <13)`</sup> 🪦 [Shortcut Maker.](https://play.google.com/store/apps/details?id=rk.android.app.shortcutmaker) Позволяет создавать шорткаты приложений с автоматической Monet-покраской (для тех, что не поддерживают ее по умолчанию) или с использованием сторонних иконпаков, неотличимо маскируя результат под нативные иконки в любом Launcher3-like лончере (это Pixel Launcher, Trebuchet, crDroid Home и прочие).
 * <sup>`(Модуль / Android 13+)`</sup> [PixelXpert.](https://github.com/siavash79/PixelXpert) Кастомизация из сторонних прошивок для стоковой прошивки Pixel/чистого AOSP.
   * Кстати, если вам нужны стили иконок для статус-бара или плиток в быстрых настройках, [используйте старую версию модуля](https://github.com/siavash79/PixelXpert/releases/tag/v2.9.0) (ранее он назывался AOSPMods). Работает только на Android <13.
 * <sup>`(Shizuku / Android 12+)`</sup>[Better Internet Tiles.](https://github.com/CasperVerswijvelt/Better-Internet-Tiles) Возвращает раздельные тайлы для мобильного интернета и Wi-Fi.
