@@ -57,7 +57,7 @@
 * [Via.](https://play.google.com/store/apps/details?id=mark.via.gp) [WIP]
 * [Cromite.](https://github.com/uazo/cromite) Форк Bromite [с большим количеством функций.](https://github.com/uazo/cromite#features) Поддерживает расширения (работает нестабильно).
 * [Firefox.](https://play.google.com/store/apps/details?id=org.mozilla.firefox) [WIP]
-* 🪦 <sup>`(Разработка прекращена)`</sup> [Kiwi Browser.](https://github.com/kiwibrowser/src.next/releases/tag/12867802748) Поддерживает [десктопные расширения](https://github.com/reddxae/list/blob/main/list/browser_add-ons.md) для Chrome и ещё [несколько полезных функций.](https://kiwibrowser.com/features) В послдених релизах много багов интерфейса.
+* 🪦 <sup>`(Разработка прекращена)`</sup> [Kiwi Browser.](https://github.com/kiwibrowser/src.next/releases/tag/12867802748) Поддерживает [десктопные расширения](https://github.com/reddxae/list/blob/main/list/browser_add-ons.md) для Chrome и ещё [несколько полезных функций.](https://kiwibrowser.com/features) В последних релизах много багов интефрейса.
 
 ## 📪 Почтовые клиенты
 * [Thunderbird (ранее K-9 Mail).](https://github.com/thunderbird/thunderbird-android) Лёгкий почтовый клиент без рекламы. Не поддерживает FCM (облачные сообщения), то есть все письма будут приходить на устройство только после запланированной или ручной проверки ящиков.
