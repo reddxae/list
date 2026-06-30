@@ -91,6 +91,7 @@ yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppBlog"]
 * [Enchancer for YouTube.](https://chromewebstore.google.com/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle) Кастомизация страницы и плеера YouTube.
 * [Refined GitHub.](https://github.com/refined-github/refined-github) Упрощает интерфейс GitHub и добавляет полезные функции.
 * [Ears.](https://chromewebstore.google.com/detail/ears-bass-boost-eq-any-au/nfdfiepdkbnoanddpianalelglmfooik) Эквалайзер с базовым набором функций (общая громкость, графический эквалайзер, пресеты). Активируется для отдельных выбранных вкладок.
+* [Copy Unicode URLs.](https://github.com/ilyaigpetrov/copy-unicode-urls) Позволяет копировать Unicode из адресной строки без процентного кодирования или Punycode.
 
 <details>
 
