@@ -133,9 +133,9 @@ yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppBlog"]
 }
 ```
 
-Прежняя разметка сетки рекомендаций:
+Прежняя разметка сетки видео:
 
-```
+```css
 [page-subtype="home"],
 [page-subtype="subscriptions"] {
     #contents {
@@ -150,6 +150,16 @@ yandex.*##:matches-path(/\/(weather|pogoda)\//) [class*="AppBlog"]
         }
         @media (min-width: 2100px) {
             --ytd-rich-grid-items-per-row: 6 !important;
+        }
+    }
+}
+[page-subtype="channels"] {
+    #contents {
+        @media (min-width: 1000px) {
+            --ytd-rich-grid-items-per-row: 3 !important;
+        }
+        @media (min-width: 1500px) {
+            --ytd-rich-grid-items-per-row: 4 !important;
         }
     }
 }
