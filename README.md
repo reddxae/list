@@ -9,6 +9,7 @@
 ___
 [🤖 Android](/list/android.md)  
 [⌚️ WearOS](/list/wearos.md)  
+[🍎 iOS](/list/android.md)  
 ___
 [🌐 Браузерные дополнения](/list/browser_add-ons.md)  
 ___
